@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+
+div {
+  position:relative;
+  z-index: 2;
+}
+
+body {
+  background-color: #333;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.bg {  
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+opacity: 1;
+}
+
+.quote-box {
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 600px;
+  padding: 40px 50px;
+  display: table;
+  background-color: rgba(255, 255, 255, 0.75);
+  opacity: 0;
+}
+
+.quote-text {
+    display: inline-block;
+    text-align:left;
+    margin: 0 auto;
+    width:600px;
+    height:auto;
+    clear:both;
+    font-weight: 400;
+    font-size:1.4em;
+    line-height: 150%;
+    opacity: 0;
+  }
+
+
+.quote-author {
+    width:600px;
+    height:auto;
+    clear:both;
+    padding-top:30px;
+    font-size:1.1em; 
+    font-weight: 400;
+    text-align: right;
+    opacity: 0;
+    margin-bottom: 15px;
+  }
+
+.buttons {
+    width:600px;
+    margin:auto;
+    display:block;
+}
+  
+.button {
+  border:none;
+  border-radius:5px;
+  outline:none;
+  margin-top:30px;
+  opacity:1;
+  cursor:pointer;
+}
+
+.button:hover {
+  opacity: 0.75;
+}   
+
+
+.mainbutton {
+  font-size:1em;
+  color:#fff;
+  background-color:#555;
+  padding: 10px;
+
+}
+
+.sharebuttons .fa {
+  font-size:0.85em;
+  border:none;
+  border-radius:5px;
+  width: 30px;
+  background-color:#555;
+  color:#fff;
+  padding: 10px;
+  margin: 10px;
+}
+
+.fa-quote-right {
+  padding-left: 15px;
+}
+
+.fa-quote-left {
+  padding-right: 15px;
+}
+
