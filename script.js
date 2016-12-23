@@ -76,7 +76,17 @@ var quotes = [
   ["A phrase began to beat in my ears with a sort of heady excitement: ‘There are only the pursued, the pursuing, the busy, and the tired.’", "F.Scott Fitzgerald"],
   ["My objective is to create my own world and these images which we create mean nothing more than the images which they are. We have forgotten how to relate emotionally to art: we treat it like editors, searching in it for that which the artist has supposedly hidden. It is actually much simpler than that, otherwise art would have no meaning. You have to be a child—incidentally children understand my pictures very well, and I haven’t met a serious critic who could stand knee-high to those children. We think that art demands special knowledge; we demand some higher meaning from an author, but the work must act directly on our hearts or it has no meaning at all.", "Andrei Tarkovsky"],
   ["Let everything that’s been planned come true. Let them believe. And let them have a laugh at their passions. Because what they call passion actually is not some emotional energy, but just the friction between their souls and the outside world. And most important, let them believe in themselves. Let them be helpless like children, because weakness is a great thing, and strength is nothing.", "Andrei Tarkovsky"],
-  ["We can express our feelings regarding the world around us either by poetic or by descriptive means. I prefer to express myself metaphorically. Let me stress: metaphorically, not symbolically. A symbol contains within itself a definite meaning, certain intellectual formula, while metaphor is an image. An image possessing the same distinguishing features as the world it represents. An image — as opposed to a symbol — is indefinite in meaning. One cannot speak of the infinite world by applying tools that are definite and finite. We can analyse the formula that constitutes a symbol, while metaphor is a being-within-itself, it’s a monomial. It falls apart at any attempt of touching it.", "Andrei Tarkovsky"]
+  ["We can express our feelings regarding the world around us either by poetic or by descriptive means. I prefer to express myself metaphorically. Let me stress: metaphorically, not symbolically. A symbol contains within itself a definite meaning, certain intellectual formula, while metaphor is an image. An image possessing the same distinguishing features as the world it represents. An image — as opposed to a symbol — is indefinite in meaning. One cannot speak of the infinite world by applying tools that are definite and finite. We can analyse the formula that constitutes a symbol, while metaphor is a being-within-itself, it’s a monomial. It falls apart at any attempt of touching it.", "Andrei Tarkovsky"],
+  ["You are the only person I can talk with about the shade of a cloud, about the song of a thought — and about how, when I went out to work today and looked a tall sunflower in the face, it smiled at me with all of its seeds.", "Vladimir Nabokov"],
+  ["I live; I die; the sea comes over me; it’s the blue that lasts.", "Virginia Woolf"],
+  ["I have dreamed of you so much that you are no longer real.<br>Is there still time for me to reach your breathing body, to kiss your mouth and make your dear voice come alive again?<br><br>I have dreamed of you so much that my arms, grown used to being crossed on my chest as I hugged your shadow, would perhaps not bend to the shape of your body.<br>For faced with the real form of what has haunted me and governed me for so many days and years, I would surely become a shadow.<br><br>O scales of feeling.<br><br>I have dreamed of you so much that surely there is no more time for me to wake up.<br>I sleep on my feet prey to all the forms of life and love, and you, the only one who counts for me today,<br>I can no more touch your face and lips than touch the lips and face of some passerby.<br><br>I have dreamed of you so much, have walked so much, talked so much, slept so much with your phantom, that perhaps the only thing left for me is to become a phantom among phantoms, a shadow a hundred times more shadow than the shadow that moves<br>and goes on moving, brightly, over the sundial of your life.", "Robert Desnos"],
+  ["Without a word, they passed each other, disappearing into the crowd. Forever.", "Haruki Murakami"],
+  ["If I were to say what binds me to people in the most touching way, it is these tokens of steadfastness that are sometimes, richly as they are undeservedly, given to one: the happy perenniality of a memory that apparently without any care still goes on and survives…", "Rainer Maria Rilke"],
+  ["Oh quickly disappearing photograph, in my more slowly disappearing hand.", "Rainer Maria Rilke"],
+  ["This is the Hour of Lead—<br>Remembered, if outlived,<br>as Freezing persons recollect the Snow—<br>First—Chill—then Stupor—then the letting go—", "Emily Dickinson"],
+  ["No rose without a thorn. Yes, but many a thorn without a rose", " Arthur Schopenhauer"],
+  ["I am strangely tired, not from having talked so much but at the mere thought of what I still have to say.", "Albert Camus"],
+  ["Your worst sin is that you have destroyed and betrayed yourself for nothing.", "Fyodor Dostoevsky"]
 ];
 
 var random = "";
@@ -92,7 +102,7 @@ function getQuote() {
     var rAuthor = quotes[random][1];
 
 //change background
-    var plath = ['images/plath.jpg', 'images/plath2.jpg', 'images/plath3.jpg',];
+    var plath = ['images/plath.jpg', 'images/plath2.jpg', 'images/plath3.jpg', 'images/plath4.jpg', 'images/plath5.jpg', 'images/plath6.jpg', 'images/plath7.jpg',];
     var dickinson = ['images/dickinson.jpg', 'images/dickinson2.jpg', 'images/dickinson3.jpg',];
     var woolf = ['images/woolf.jpg', 'images/woolf2.jpg', 'images/woolf3.jpg',];
     var pessoa = ['images/pessoa.jpg', 'images/pessoa2.jpg', 'images/pessoa3.jpg',];
@@ -107,6 +117,16 @@ function getQuote() {
     var anaisnin = ['images/anaisnin.jpg', 'images/anaisnin2.jpg', 'images/anaisnin3.jpg', 'images/anaisnin4.jpg',];
     var calvino = ['images/calvino.jpg', 'images/calvino2.jpg', 'images/calvino3.jpg',];
     var tarkovsky = ['images/tarkovsky.jpg', 'images/tarkovsky2.jpg', 'images/tarkovsky3.jpg', 'images/tarkovsky4.jpg', 'images/tarkovsky5.jpg', 'images/tarkovsky6.jpg',];
+    var nabokov = ['images/nabokov.jpg', 'images/nabokov2.jpg', 'images/nabokov3.jpg',];
+    var desnos = ['images/desnos.jpg', 'images/desnos2.jpg', 'images/desnos3.jpg',];
+    var murakami = ['images/murakami.jpg', 'images/murakami2.jpg', 'images/murakami3.jpg', 'images/murakami4.jpg', 'images/murakami5.jpg', 'images/murakami6.jpg',];
+    var rilke = ['images/rilke.jpg', 'images/rilke2.jpg', 'images/rilke3.jpg', 'images/rilke4.jpg', 'images/rilke5.jpg',];
+    var pascal = ['images/pascal.jpg', 'images/pascal2.jpg', 'images/pascal3.jpg',];
+    var schopenhauer = ['images/schopenhauer.jpg', 'images/schopenhauer2.jpg', 'images/schopenhauer3.jpg',];
+    var proust = ['images/proust.jpg', 'images/proust2.jpg', 'images/proust3.jpg',];
+    var rimbaud = ['images/rimbaud.jpg', 'images/rimbaud2.jpg', 'images/rimbaud3.jpg',];
+    var camus = ['images/camus.jpg', 'images/camus2.jpg', 'images/camus3.jpg',];
+    var dostoevsky = ['images/dostoevsky.jpg', 'images/dostoevsky2.jpg', 'images/dostoevsky3.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -178,9 +198,45 @@ function getQuote() {
     $('.bg').css({'background-image' : 'url('+ tarkovsky[Math.floor(Math.random() * tarkovsky.length)] + ')'});
     break;
 
+    case "Vladimir Nabokov":
+    $('.bg').css({'background-image' : 'url('+ nabokov[Math.floor(Math.random() * nabokov.length)] + ')'});
+    break;
+
+    case "Robert Desnos":
+    $('.bg').css({'background-image' : 'url('+ desnos[Math.floor(Math.random() * desnos.length)] + ')'});
+    break;
+
+    case "Haruki Murakami":
+    $('.bg').css({'background-image' : 'url('+ murakami[Math.floor(Math.random() * murakami.length)] + ')'});
+    break;
+
+    case "Rainer Maria Rilke":
+    $('.bg').css({'background-image' : 'url('+ rilke[Math.floor(Math.random() * rilke.length)] + ')'});
+    break;
+
 		case "Blaise Pascal":
-		$('.bg').css("background-image", "url(images/pascal.jpg)");
+		$('.bg').css({'background-image' : 'url('+ pascal[Math.floor(Math.random() * pascal.length)] + ')'});
 		break;
+
+    case "Arthur Schopenhauer":
+    $('.bg').css({'background-image' : 'url('+ schopenhauer[Math.floor(Math.random() * schopenhauer.length)] + ')'});
+    break;
+
+    case "Marcel Proust":
+    $('.bg').css({'background-image' : 'url('+ proust[Math.floor(Math.random() * proust.length)] + ')'});
+    break;
+
+    case "Arthur Rimbaud":
+    $('.bg').css({'background-image' : 'url('+ rimbaud[Math.floor(Math.random() * rimbaud.length)] + ')'});
+    break;
+
+    case "Albert Camus":
+    $('.bg').css({'background-image' : 'url('+ camus[Math.floor(Math.random() * camus.length)] + ')'});
+    break;
+
+    case "Fyodor Dostoevsky":
+    $('.bg').css({'background-image' : 'url('+ dostoevsky[Math.floor(Math.random() * dostoevsky.length)] + ')'});
+    break;
 
 		case "Frédéric Chopin":
 		$('.bg').css("background-image", "url(images/chopin.jpg)");
@@ -192,14 +248,6 @@ function getQuote() {
 
     case "Langston Hughes":
     $('.bg').css("background-image", "url(images/langstonhughes.jpg)");
-    break;
-
-    case "Marcel Proust":
-    $('.bg').css("background-image", "url(images/proust.jpg)");
-    break;
-
-    case "Arthur Rimbaud":
-    $('.bg').css("background-image", "url(images/rimbaud.jpg)");
     break;
 
     case "Goethe":
@@ -275,5 +323,6 @@ $(document).ready(function(){
 getQuote();
 
 $('#new-quote').on('click', getQuote);
+
 
 });
