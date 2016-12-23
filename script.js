@@ -159,7 +159,14 @@ var quotes = [
   ["As I have no hope whatever and am nothing in your eyes, I speak openly: I see nothing but you everywhere, and all the rest is naught to me.", "Fyodor Dostoevsky"],
   ["If and when you fall in love, may you be happy with her. I don’t need to wish her anything, for she’ll be happy with you. May your sky always be clear, may your dear smile always be bright and happy, and may you be for ever blessed for that moment of bliss and happiness which you gave to another lonely and grateful heart. Isn’t such a moment sufficient for the whole of one’s life?", "Fyodor Dostoevsky"],
   ["I would love you as a bird loves flight, as meat loves salt, as a dog loves chase, as water finds its own level. Or I would not love you at all.", "Jeanette Winterson"],
-  ["…and finally it was no longer anything because it was too much.", "Jean-Paul Sartre"]
+  ["…and finally it was no longer anything because it was too much.", "Jean-Paul Sartre"],
+  ["What is a poet? An unhappy person who conceals profound anguish in his heart but whose lips are so formed that as sighs and cries pass over them they sound like beautiful music.", "Soren Kierkegaard"],
+  ["Every heart sings a song, incomplete, until another heart whispers back. Those who wish to sing always find a song. At the touch of a lover, everyone becomes a poet.", "Plato"],
+  ["There is in every one of us, even those who seem to be most moderate, a type of desire that is terrible, wild, and lawless.", "Plato"],
+  ["I reached the point of feeling a sort of secret, abnormal, despicable enjoyment in returning home to my corner on some disgusting Petersburg night, and being acutely conscious that that day I had again done something loathsome, that what was done could never be undone, and secretly, inwardly gnaw, gnaw at myself for it, nagging and consuming myself till at last the bitterness turned into some sort of shameful accursed sweetness, and finally into a real positive enjoyment.", "Fyodor Dostoevsky"],
+  ["One can experience loneliness in two ways: by feeling lonely in the world or by feeling the loneliness of the world.", "Emil Cioran"],
+  ["I live in my dreams — that’s what you sense. Other people live in dreams but not in their own. That’s the difference.", "Hermann Hesse"],
+  ["Reality is what I make it. That is what I have said I believed. Then I look at the hell I am wallowing in, nerves paralyzed, action nullified - fear, envy, hate: all the corrosive emotions of insecurity biting away at my sensitive guts. Time, experience: the colossal wave, sweeping tidal over me, drowning, drowning. How can I ever find that permanence, that continuity with past and future, that communication with other human beings that I crave? Can I ever honestly accept an artificial imposed solution? How can I justify, how can I rationalize the rest of my life away?", "Sylvia Plath"]
 ];
 
 var random = "";
