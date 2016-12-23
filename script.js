@@ -158,7 +158,8 @@ var quotes = [
   ["The deepest and most organic death is death in solitude, when even light becomes a principle of death. In such moments you will be severed from life, from love, smiles, friends and even from death. And you will ask yourself if there is anything besides the nothingness of the world and your own nothingness.", "Emil Cioran"],
   ["As I have no hope whatever and am nothing in your eyes, I speak openly: I see nothing but you everywhere, and all the rest is naught to me.", "Fyodor Dostoevsky"],
   ["If and when you fall in love, may you be happy with her. I don’t need to wish her anything, for she’ll be happy with you. May your sky always be clear, may your dear smile always be bright and happy, and may you be for ever blessed for that moment of bliss and happiness which you gave to another lonely and grateful heart. Isn’t such a moment sufficient for the whole of one’s life?", "Fyodor Dostoevsky"],
-  ["I would love you as a bird loves flight, as meat loves salt, as a dog loves chase, as water finds its own level. Or I would not love you at all.", "Jeanette Winterson"]
+  ["I would love you as a bird loves flight, as meat loves salt, as a dog loves chase, as water finds its own level. Or I would not love you at all.", "Jeanette Winterson"],
+  ["…and finally it was no longer anything because it was too much.", "Jean-Paul Sartre"]
 ];
 
 var random = "";
@@ -218,6 +219,7 @@ function getQuote() {
     var vikram = ['images/vikram.jpg', 'images/vikram2.jpg', 'images/vikram3.jpg',];
     var mjuly = ['images/mjuly.jpg', 'images/mjuly2.jpg', 'images/mjuly3.jpg', 'images/mjuly4.jpg', 'images/mjuly5.jpg', 'images/mjuly6.jpg',];
     var baudelaire = ['images/baudelaire.jpg', 'images/baudelaire2.jpg', 'images/baudelaire3.jpg', 'images/baudelaire4.jpg',];
+    var sartre = ['images/sartre.jpg', 'images/sartre2.jpg', 'images/sartre3.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -404,6 +406,11 @@ function getQuote() {
     case "Charles Baudelaire":
     $('.bg').css({'background-image' : 'url('+ baudelaire[Math.floor(Math.random() * baudelaire.length)] + ')'});
     break; 
+
+    case "Jean-Paul Sartre":
+    $('.bg').css({'background-image' : 'url('+ sartre[Math.floor(Math.random() * sartre.length)] + ')'});
+    break; 
+
 
 		case "Frédéric Chopin":
 		$('.bg').css("background-image", "url(images/chopin.jpg)");
