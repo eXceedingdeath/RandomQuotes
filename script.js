@@ -124,12 +124,29 @@ var quotes = [
   ["When others asked the truth of me, I was convinced it was not the truth they wanted, but an illusion they could bear to live with.", "Anaïs Nin"],
   ["Perhaps all the dragons in our lives are princesses who are only waiting to see us act, just once, with beauty and courage. Perhaps everything that frightens us is, in its deepest essence, something helpless that wants our love.", "Rainer Maria Rilke"],
   ["I dream. Sometimes I think that’s the only right thing to do.", "Haruki Murakami"],
-  ["A thousand Dreams within me softly burn.", "Arthur Rimbaud"],
+  ["A thousand dreams within me softly burn.", "Arthur Rimbaud"],
   ["Everything is possible and yet nothing is. All is permitted and yet again, nothing. No matter which way we go, it is no better than any other. It is all the same whether you achieve something or not, have faith or not, … whether you cry or remain silent. There is an explanation for everything, and yet there is none. Everything is both real and unreal, normal and absurd, splendid and insipid. There is nothing worth more than something else, nor any idea better than another. Why grow sad from one’s sadness and delight in one’s joy? … Love your unhappiness and hate your happiness. Mix everything up. … All gain is a loss, and all loss is a gain. Why always expect a definite stance, clear ideas, meaningful words?", "Emil Cioran"],
   ["I’ve dreamed a lot. I’m tired now from dreaming but not tired of dreaming. No one tires of dreaming, because to dream is to forget, and forgetting does not weigh on us, it is a dreamless sleep throughout which we remain awake. In dreams I have achieved everything.", "Fernando Pessoa"],
   ["I see you everywhere, in the stars, deep in the river, to me you’re everything that exists; the reality of everything.", "Virginia Woolf"],
   ["My mission, should I choose to accept it, is to find peace with exactly who and what I am. To take pride in my thoughts, my appearance, my talents, my flaws, and to stop this incessant worrying that I can’t be loved as I am.", "Anaïs Nin"],
-  ["I would like to sleep, in order to surrender myself to the dreamers, the way I surrender myself to those who read me with eyes wide open; in order to stop imposing, in this realm, the conscious rhythm of my thought.", "André Breton"]
+  ["I would like to sleep, in order to surrender myself to the dreamers, the way I surrender myself to those who read me with eyes wide open; in order to stop imposing, in this realm, the conscious rhythm of my thought.", "André Breton"],
+  ["I can’t hold enough of you in my hands.", "Franz Kafka"],
+  ["There is an artificial, miserable substitute for everything. Feverishly you contrive these substitutes, and if the fever has not already destroyed you, the hopelessness of the substitute will.", "Franz Kafka"],
+  ["If you have reasons to love someone, you don’t love them.", "Slavoj Žižek"],
+  ["You are the knife I turn inside myself; that is love. That, my dear, is love.", "Franz Kafka"],
+  ["All you who sleep tonight<br>Far from the ones you love,<br>No hand to left or right<br>And emptiness above–<br>Know that you aren’t alone<br>The whole world shares your tears,<br>Some for two nights or one,<br>And some for all their years.", "Vikram Seth"],
+  ["I don’t understand why we must do things in this world, why we must have friends and aspirations, hopes and dreams. Wouldn’t it be better to retreat to a faraway corner of the world, where all its noise and complications would be heard no more? Then we could renounce culture and ambitions; we would lose everything and gain nothing; for what is there to be gained from this world?", "Emil Cioran"],
+  ["There is something at the bottom of every new human thought, every thought of genius, or even every earnest thought that springs up in any brain, which can never be communicated to others, even if one were to write volumes about it and were explaining one’s idea for thirty-five years; there’s something left which cannot be induced to emerge from your brain, and remains with you forever; and with it you will die, without communicating to anyone perhaps the most important of your ideas.", "Fyodor Dostoevsky"],
+  ["I saw my life branching out before me like the green fig tree in the story. From the tip of every branch, like a fat purple fig, a wonderful future beckoned and winked. One fig was a husband and a happy home and children, and another fig was a famous poet and another fig was a brilliant professor, and another fig was Ee Gee, the amazing editor, and another fig was Europe and Africa and South America, and another fig was Constantin and Socrates and Attila and a pack of other lovers with queer names and offbeat professions, and another fig was an Olympic lady crew champion, and beyond and above these figs were many more figs I couldn’t quite make out. I saw myself sitting in the crotch of this fig tree, starving to death, just because I couldn’t make up my mind which of the figs I would choose. I wanted each and every one of them, but choosing one meant losing all the rest, and, as I sat there, unable to decide, the figs began to wrinkle and go black, and, one by one, they plopped to the ground at my feet.", "Sylvia Plath"],
+  ["How much better is silence; the coffee cup, the table. How much better to sit by myself like the solitary sea-bird that opens its wings on the stake. Let me sit here for ever with bare things, this coffee cup, this knife, this fork, things in themselves, myself being myself.", "Virginia Woolf"],
+  ["I feel so intensely the delights of shutting oneself up in a little world of one’s own, with pictures and music and everything beautiful.", "Virginia Woolf"],
+  ["I feel so intensely the delights of shutting oneself up in a little world of one’s own, with pictures and music and everything beautiful.", "Albert Camus"],
+  ["Life is just this way, broken, and I am crazy to hope for something else.", "Miranda July"],
+  [" I dream of a grave, deep and narrow, where we could clasp each other in our arms as with clamps, and I would hide my face in you and you would hide your face in me, and nobody would ever see us any more.", "Franz Kafka"],
+  ["Although longing to recover, those who suffer intensely for a long time sense an irreparable loss in their improvement. If pain is part of your being, overcoming it is like a loss and causes a pang of regret. I owe to suffering the best parts of myself as well as that I have lost in life. Therefore I cannot curse it or love suffering. My feeling for it is hard to describe; it is strange, elusive and has the mysterious charm of twilight.", "Emil Cioran"],
+  ["How much of life I have known: love, disillusion, madness, hatred, murderous passions. How to be honest. I see beginnings, flashes, yet how to organize them knowledgably, to finish them. I will write mad stories. But honest. I know the horror of primal feelings, obsessions.", "Sylvia Plath"],
+  ["All men see fires, storms, explosions, or landscapes; but how many feel the flames, the lightnings, the whirlwinds, or the harmony? How many have an inner beauty that tinges their melancholy?", "Emil Cioran"],
+  ["Melancholy is the illustrious companion of beauty; therefore I cannot conceive any beauty which does not possess sadness.", "Charles Baudelaire"]
 ];
 
 var random = "";
@@ -186,6 +203,9 @@ function getQuote() {
     var kafka = ['images/kafka.jpg', 'images/kafka2.jpg', 'images/kafka3.jpg',];
     var orr = ['images/orr.jpg', 'images/orr2.jpg',];
     var breton = ['images/breton.jpg', 'images/breton2.jpg', 'images/breton3.jpg',];
+    var vikram = ['images/vikram.jpg', 'images/vikram2.jpg', 'images/vikram3.jpg',];
+    var mjuly = ['images/mjuly.jpg', 'images/mjuly2.jpg', 'images/mjuly3.jpg', 'images/mjuly4.jpg', 'images/mjuly5.jpg', 'images/mjuly6.jpg',];
+    var baudelaire = ['images/baudelaire.jpg', 'images/baudelaire2.jpg', 'images/baudelaire3.jpg', 'images/baudelaire4.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -361,6 +381,18 @@ function getQuote() {
     $('.bg').css({'background-image' : 'url('+ breton[Math.floor(Math.random() * breton.length)] + ')'});
     break; 
 
+    case "Vikram Seth":
+    $('.bg').css({'background-image' : 'url('+ vikram[Math.floor(Math.random() * vikram.length)] + ')'});
+    break; 
+
+    case "Miranda July":
+    $('.bg').css({'background-image' : 'url('+ mjuly[Math.floor(Math.random() * mjuly.length)] + ')'});
+    break; 
+
+    case "Charles Baudelaire":
+    $('.bg').css({'background-image' : 'url('+ baudelaire[Math.floor(Math.random() * baudelaire.length)] + ')'});
+    break; 
+
 		case "Frédéric Chopin":
 		$('.bg').css("background-image", "url(images/chopin.jpg)");
 		break;
@@ -433,14 +465,16 @@ window.setTimeout(changeFontSize, 200);
 
 function changeFontSize() {
 if (rQuote.length > 1500) {
-   $('.quote-text').css( "font-size", "1.1em");
+   $('.quote-text').css( "font-size", "1.05em");
 } else if (rQuote.length > 1250) {
-  $('.quote-text').css( "font-size", "1.15em");
+  $('.quote-text').css( "font-size", "1.1em");
 } else if (rQuote.length > 1000) {
-  $('.quote-text').css( "font-size", "1.2em");
+  $('.quote-text').css( "font-size", "1.15em");
 } else if (rQuote.length > 750) {
-  $('.quote-text').css( "font-size", "1.25em");
+  $('.quote-text').css( "font-size", "1.2em");
 } else if (rQuote.length > 500) {
+  $('.quote-text').css( "font-size", "1.25em");
+} else if (rQuote.length > 250) {
   $('.quote-text').css( "font-size", "1.3em");
 } else {  
   $('.quote-text').css( "font-size", "1.35em");
