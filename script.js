@@ -146,7 +146,9 @@ var quotes = [
   ["Although longing to recover, those who suffer intensely for a long time sense an irreparable loss in their improvement. If pain is part of your being, overcoming it is like a loss and causes a pang of regret. I owe to suffering the best parts of myself as well as that I have lost in life. Therefore I cannot curse it or love suffering. My feeling for it is hard to describe; it is strange, elusive and has the mysterious charm of twilight.", "Emil Cioran"],
   ["How much of life I have known: love, disillusion, madness, hatred, murderous passions. How to be honest. I see beginnings, flashes, yet how to organize them knowledgably, to finish them. I will write mad stories. But honest. I know the horror of primal feelings, obsessions.", "Sylvia Plath"],
   ["All men see fires, storms, explosions, or landscapes; but how many feel the flames, the lightnings, the whirlwinds, or the harmony? How many have an inner beauty that tinges their melancholy?", "Emil Cioran"],
-  ["Melancholy is the illustrious companion of beauty; therefore I cannot conceive any beauty which does not possess sadness.", "Charles Baudelaire"]
+  ["Melancholy is the illustrious companion of beauty; therefore I cannot conceive any beauty which does not possess sadness.", "Charles Baudelaire"],
+  ["I’m not totally mad at you. I’m just sad. You’re all locked up in that little world of yours, and when I try knocking on the door, you just sort of look up for a second and go right back inside.", "Haruki Murakami"],
+  ["I am constantly trying to communicate something incommunicable, to explain something inexplicable, to tell about something I only feel in my bones and which can only be experienced in those bones.", "Franz Kafka"]
 ];
 
 var random = "";
