@@ -84,9 +84,52 @@ var quotes = [
   ["If I were to say what binds me to people in the most touching way, it is these tokens of steadfastness that are sometimes, richly as they are undeservedly, given to one: the happy perenniality of a memory that apparently without any care still goes on and survives…", "Rainer Maria Rilke"],
   ["Oh quickly disappearing photograph, in my more slowly disappearing hand.", "Rainer Maria Rilke"],
   ["This is the Hour of Lead—<br>Remembered, if outlived,<br>as Freezing persons recollect the Snow—<br>First—Chill—then Stupor—then the letting go—", "Emily Dickinson"],
-  ["No rose without a thorn. Yes, but many a thorn without a rose", " Arthur Schopenhauer"],
+  ["No rose without a thorn. Yes, but many a thorn without a rose", "Arthur Schopenhauer"],
   ["I am strangely tired, not from having talked so much but at the mere thought of what I still have to say.", "Albert Camus"],
-  ["Your worst sin is that you have destroyed and betrayed yourself for nothing.", "Fyodor Dostoevsky"]
+  ["Your worst sin is that you have destroyed and betrayed yourself for nothing.", "Fyodor Dostoevsky"],
+  ["What does the future, that half of time, matter to the man who is infatuated with eternity?", "Emil Cioran"],
+  ["Somebody sees me, and I see myself through them. Then it’s all gone, the whole world falls apart.", "Anne Sexton"],
+  ["I say nothing of its being likely that nothing will exist for anyone when I am gone, and that as soon as my consciousness is extinguished the whole world will vanish too and become void like a phantom, as a mere appurtenance of my consciousness, for possibly all this world and all these people are only me myself.", "Fyodor Dostoevsky"],
+  ["You, darkness from which I come, I love you more than the flame that bounds the world…", "Rainer Maria Rilke"],
+  ["I was afraid when in autumn, after the first night frosts, the flies came into the rooms and revived once again in the warmth. They were singularly dried up and took fright at their own buzzing; one could see they didn’t quite know what they were doing. They sat there for hours and let themselves be, until it occurred to them that they were still alive; then they flung themselves blindly in every direction and didn’t know what to do when they got there, and one could hear them falling down again here and there and elsewhere. And finally they crawled about everywhere and slowly strewed death all over the room.", "Rainer Maria Rilke"],
+  ["I seemed always on the verge of some wonderful experience; And then it never happened.", "T.S. Eliot"],
+  ["Nostalgia in reverse, the longing for yet another strange land, grew especially strong in spring.", "Vladimir Nabokov"],
+  ["I’m in love with everyone I’ve ever met in one way or another. I’m just a crazy, unhinged disaster of a human being.", "Edie Sedgwick"],
+  ["I still find each day too short for all the thoughts I want to think, all the walks I want to take, all the books I want to read, and all the friends I want to see.", "John Burroughs"],
+  ["I lay thinking, ‘I am safe. There is the corner of the bedroom door and the friendly furniture. There is the tree of life in the garden and the wall green with moss. The barrier of the cliffs and the high mountains. And the barrier of the sea. I am safe. I am safe from strangers.’", "Jean Rhys"],
+  ["Everything in nature is lyrical in its ideal essence, tragic in its fate, and comic in its existence.", "George Santayana"],
+  ["The passing of time is soft and unworldly and pain floats lightly in my soul.", "George Seferis"],
+  ["Life being fundamentally a mental state, and all that we do or think valid to the extent we consider it valid, the valuation depends on us. The dreamer is an issuer of banknotes, and the notes he issues circulate in the city of his mind just like real notes in the world outside. Why should I care if the currency of my soul will never be convertible to gold, when there is no gold in life’s factitious alchemy? After us all comes the deluge, but only after us all.", "Fernando Pessoa"],
+  ["I am a weak, ephemeral creature made of mud and dream. But I feel all the powers of the universe whirling within me.", "Nikos Kazantzakis"],
+  ["What she liked was distance. A good long view towards the sunset, or at a certain soft hour at home, towards an empty intersection, and if you got a glimpse of something more it would be the way the hills blurred off into blueness beyond the last of the flashing roofs. You would feel small then, in a way she found comforting.", "David Malouf"],
+  ["Have you ever sensed that our soul is immortal and never dies?", "Plato"],
+  ["We cannot live in a world that is interpreted for us by others. An interpreted world is not a home. Part of the terror is to take back our own listening. To use our own voice. To see our own light.", "Hildegard Von Bingen"],
+  ["How can she describe emptiness? Acres of vacancy, which she filled with whatever she could, with knowledge, with dates and facts, more and more of them, pouring them into her head to silence the echoes.", "Margaret Atwood"],
+  ["You train yourself in the art of being mysterious to everyone. My dear friend! What if there were no one, who cared about guessing your riddle, what pleasure would you then take in it?", "Soren Kierkegaard"],
+  ["All these things happen in one second and last forever.", "Virginia Woolf"],
+  ["I withdraw and the act of withdrawing does not diminish the pain. It is delicate, it is, in my head, tragic and delicate. I withdraw and this seems to rather accentuate the importance and the strangeness of everything.", "Virginia Woolf"],
+  ["And the dreamer is no more real than his dreams.", "T.S. Eliot"],
+  ["I am tired of being a person. Not just tired of being the person I was, but any person at all. I like watching people, but I don’t like talking to them, dealing with them, pleasing them, or offending them. I am tired.", "Susan Sontag"],
+  ["My life: a tragedy booed off stage by the gods, never getting beyond the first act.", "Fernando Pessoa"],
+  ["I put my hands among the flames. Nothing burns.", "Sylvia Plath"],
+  ["What am I to do with the stars if you're missing?", "Yannis Ritsos"],
+  ["I think it is all a matter of love; the more you love a memory the stronger and stranger it becomes.", "Vladimir Nabokov"],
+  ["We are not dreamers, but the awakening from a dream which is becoming a nightmare.", "Slavoj Žižek"],
+  ["I love my mystery, I love the abstract world I live in; the delicate, profound, vague, obscure, voluptuously wordless sensations I experience.", "Anaïs Nin"],
+  ["Please, consider me a dream.", "Franz Kafka"],
+  ["Dreams, of course, are for those who are not strong enough for reality, and reality is for those who cannot confront their dreams.", "Slavoj Žižek"],
+  ["You were looking in the wrong world.<br>It was inside you—entrance to that cavern<br>deeper than hell, more dark and lonely.<br>Didn't you feel it open at her fisrt touch?", "Gregory Orr"],
+  ["I can never manage to find the phrases I used to love so much. Certain words almost make me believe that I’ve found them again, but it’s impossible.", "Marcel Proust"],
+  ["You do not need to leave your room. Remain sitting at your table and listen. Do not even listen, simply wait. Do not even wait, be quite still and solitary. The world will freely offer itself to you to be unmasked, it has no choice, it will roll in ecstasy at your feet.", "Franz Kafka"],
+  ["When others asked the truth of me, I was convinced it was not the truth they wanted, but an illusion they could bear to live with.", "Anaïs Nin"],
+  ["Perhaps all the dragons in our lives are princesses who are only waiting to see us act, just once, with beauty and courage. Perhaps everything that frightens us is, in its deepest essence, something helpless that wants our love.", "Rainer Maria Rilke"],
+  ["I dream. Sometimes I think that’s the only right thing to do.", "Haruki Murakami"],
+  ["A thousand Dreams within me softly burn.", "Arthur Rimbaud"],
+  ["Everything is possible and yet nothing is. All is permitted and yet again, nothing. No matter which way we go, it is no better than any other. It is all the same whether you achieve something or not, have faith or not, … whether you cry or remain silent. There is an explanation for everything, and yet there is none. Everything is both real and unreal, normal and absurd, splendid and insipid. There is nothing worth more than something else, nor any idea better than another. Why grow sad from one’s sadness and delight in one’s joy? … Love your unhappiness and hate your happiness. Mix everything up. … All gain is a loss, and all loss is a gain. Why always expect a definite stance, clear ideas, meaningful words?", "Emil Cioran"],
+  ["I’ve dreamed a lot. I’m tired now from dreaming but not tired of dreaming. No one tires of dreaming, because to dream is to forget, and forgetting does not weigh on us, it is a dreamless sleep throughout which we remain awake. In dreams I have achieved everything.", "Fernando Pessoa"],
+  ["I see you everywhere, in the stars, deep in the river, to me you’re everything that exists; the reality of everything.", "Virginia Woolf"],
+  ["My mission, should I choose to accept it, is to find peace with exactly who and what I am. To take pride in my thoughts, my appearance, my talents, my flaws, and to stop this incessant worrying that I can’t be loved as I am.", "Anaïs Nin"],
+  ["I would like to sleep, in order to surrender myself to the dreamers, the way I surrender myself to those who read me with eyes wide open; in order to stop imposing, in this realm, the conscious rhythm of my thought.", "André Breton"]
 ];
 
 var random = "";
@@ -98,8 +141,8 @@ var rAuthor = "";
 function getQuote() {
 
 	var random = Math.floor(Math.random() * quotes.length);
-    var rQuote = quotes[random][0];
-    var rAuthor = quotes[random][1];
+  var rQuote = quotes[random][0];
+  var rAuthor = quotes[random][1];
 
 //change background
     var plath = ['images/plath.jpg', 'images/plath2.jpg', 'images/plath3.jpg', 'images/plath4.jpg', 'images/plath5.jpg', 'images/plath6.jpg', 'images/plath7.jpg',];
@@ -127,6 +170,22 @@ function getQuote() {
     var rimbaud = ['images/rimbaud.jpg', 'images/rimbaud2.jpg', 'images/rimbaud3.jpg',];
     var camus = ['images/camus.jpg', 'images/camus2.jpg', 'images/camus3.jpg',];
     var dostoevsky = ['images/dostoevsky.jpg', 'images/dostoevsky2.jpg', 'images/dostoevsky3.jpg',];
+    var cioran = ['images/cioran.jpg', 'images/cioran2.jpg', 'images/cioran3.jpg',];
+    var sexton = ['images/sexton.jpg', 'images/sexton2.jpg', 'images/sexton3.jpg',];
+    var tseliot = ['images/tseliot.jpg', 'images/tseliot2.jpg', 'images/tseliot3.jpg', 'images/tseliot4.jpg',];
+    var sedgwick = ['images/sedgwick.jpg', 'images/sedgwick2.jpg', 'images/sedgwick3.jpg',];
+    var jburroughs = ['images/jburroughs.jpg', 'images/jburroughs2.jpg', 'images/jburroughs3.jpg',];
+    var jeanrhys = ['images/jeanrhys1.jpg', 'images/jeanrhys2.jpg',];
+    var santayana = ['images/santayana.jpg', 'images/santayana2.jpg',];
+    var kazantzakis = ['images/kazantzakis.jpg', 'images/kazantzakis2.jpg', 'images/kazantzakis3.jpg',];
+    var malouf = ['images/malouf.jpg', 'images/malouf2.jpg',];
+    var plato = ['images/plato.jpg', 'images/plato2.jpg', 'images/plato3.jpg',];
+    var atwood = ['images/atwood.jpg', 'images/atwood2.jpg', 'images/atwood3.jpg', 'images/atwood4.jpg', 'images/atwood5.jpg',];
+    var sontag = ['images/sontag.jpg', 'images/sontag2.jpg', 'images/sontag3.jpg', 'images/sontag4.jpg',];
+    var zizek = ['images/zizek.jpg', 'images/zizek2.jpg', 'images/zizek3.jpg',];
+    var kafka = ['images/kafka.jpg', 'images/kafka2.jpg', 'images/kafka3.jpg',];
+    var orr = ['images/orr.jpg', 'images/orr2.jpg',];
+    var breton = ['images/breton.jpg', 'images/breton2.jpg', 'images/breton3.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -238,9 +297,85 @@ function getQuote() {
     $('.bg').css({'background-image' : 'url('+ dostoevsky[Math.floor(Math.random() * dostoevsky.length)] + ')'});
     break;
 
+    case "Emil Cioran":
+    $('.bg').css({'background-image' : 'url('+ cioran[Math.floor(Math.random() * cioran.length)] + ')'});
+    break;
+
+    case "Anne Sexton":
+    $('.bg').css({'background-image' : 'url('+ sexton[Math.floor(Math.random() * sexton.length)] + ')'});
+    break;
+
+    case "T.S. Eliot":
+    $('.bg').css({'background-image' : 'url('+ tseliot[Math.floor(Math.random() * tseliot.length)] + ')'});
+    break;
+
+    case "Edie Sedgwick":
+    $('.bg').css({'background-image' : 'url('+ sedgwick[Math.floor(Math.random() * sedgwick.length)] + ')'});
+    break;   
+
+    case "Jean Rhys":
+    $('.bg').css({'background-image' : 'url('+ jeanrhys[Math.floor(Math.random() * jeanrhys.length)] + ')'});
+    break;   
+
+    case "John Burroughs":
+    $('.bg').css({'background-image' : 'url('+ jburroughs[Math.floor(Math.random() * jburroughs.length)] + ')'});
+    break; 
+
+    case "George Santayana":
+    $('.bg').css({'background-image' : 'url('+ santayana[Math.floor(Math.random() * santayana.length)] + ')'});
+    break; 
+
+    case "Nikos Kazantzakis":
+    $('.bg').css({'background-image' : 'url('+ kazantzakis[Math.floor(Math.random() * kazantzakis.length)] + ')'});
+    break; 
+
+    case "David Malouf":
+    $('.bg').css({'background-image' : 'url('+ malouf[Math.floor(Math.random() * malouf.length)] + ')'});
+    break; 
+
+    case "Plato":
+    $('.bg').css({'background-image' : 'url('+ plato[Math.floor(Math.random() * plato.length)] + ')'});
+    break; 
+
+    case "Margaret Atwood":
+    $('.bg').css({'background-image' : 'url('+ atwood[Math.floor(Math.random() * atwood.length)] + ')'});
+    break; 
+
+    case "Susan Sontag":
+    $('.bg').css({'background-image' : 'url('+ sontag[Math.floor(Math.random() * sontag.length)] + ')'});
+    break; 
+
+    case "Slavoj Žižek":
+    $('.bg').css({'background-image' : 'url('+ zizek[Math.floor(Math.random() * zizek.length)] + ')'});
+    break; 
+
+    case "Franz Kafka":
+    $('.bg').css({'background-image' : 'url('+ kafka[Math.floor(Math.random() * kafka.length)] + ')'});
+    break; 
+
+    case "Gregory Orr":
+    $('.bg').css({'background-image' : 'url('+ orr[Math.floor(Math.random() * orr.length)] + ')'});
+    break; 
+
+    case "André Breton":
+    $('.bg').css({'background-image' : 'url('+ breton[Math.floor(Math.random() * breton.length)] + ')'});
+    break; 
+
 		case "Frédéric Chopin":
 		$('.bg').css("background-image", "url(images/chopin.jpg)");
 		break;
+
+    case "Hildegard Von Bingen":
+    $('.bg').css("background-image", "url(images/hildegard.jpg)");
+    break;
+
+    case "George Seferis":
+    $('.bg').css("background-image", "url(images/seferis.jpg)");
+    break;
+
+    case "Yannis Ritsos":
+    $('.bg').css("background-image", "url(images/ritsos.jpg)");
+    break;
 
 		case "Douglas Hofstadter":
 		$('.bg').css("background-image", "url(images/hofstadter.jpg)");
