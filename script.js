@@ -148,7 +148,17 @@ var quotes = [
   ["All men see fires, storms, explosions, or landscapes; but how many feel the flames, the lightnings, the whirlwinds, or the harmony? How many have an inner beauty that tinges their melancholy?", "Emil Cioran"],
   ["Melancholy is the illustrious companion of beauty; therefore I cannot conceive any beauty which does not possess sadness.", "Charles Baudelaire"],
   ["I’m not totally mad at you. I’m just sad. You’re all locked up in that little world of yours, and when I try knocking on the door, you just sort of look up for a second and go right back inside.", "Haruki Murakami"],
-  ["I am constantly trying to communicate something incommunicable, to explain something inexplicable, to tell about something I only feel in my bones and which can only be experienced in those bones.", "Franz Kafka"]
+  ["I am constantly trying to communicate something incommunicable, to explain something inexplicable, to tell about something I only feel in my bones and which can only be experienced in those bones.", "Franz Kafka"],
+  ["I have never found anybody who could stand to accept the daily demonstrative love I feel in me, and give back as good as I give.", "Sylvia Plath"],
+  ["Can you understand? Someone, somewhere, can you understand me a little, love me a little? For all my despair, for all my ideals, for all that - I love life. But it is hard, and I have so much - so very much to learn.", "Sylvia Plath"],
+  ["While melancholy is a state of vague dreaminess, never deep or intense, sadness is closed, serious, and painfully interiorized. One can be sad anywhere, but sadness grows in intensity in a closed space while melancholy flourishes in open spaces. Sadness almost always stems from a precise motive and is therefore concentrated, whereas there are no exterior causes for melancholy. I know why I am sad, but I do not know why I am melancholic.", "Emil Cioran"],
+  ["Sometimes when I look at you, I feel I’m gazing at a distant star. It’s dazzling, but the light is from tens of thousands of years ago. Maybe the star doesn’t even exist any more. Yet sometimes that light seems more real to me than anything.", "Haruki Murakami"],
+  ["If there were a map of the solar system, but instead of stars it showed people and their degrees of separation, my star would be the one you had to travel the most light-years from to get to his. You would die getting to him.", "Miranda July"],
+  ["I can’t think of any greater happiness than to be with you all the time, without interruption, endlessly, even though I feel that here in this world there’s no undisturbed place for our love, neither in the village nor anywhere else; and I dream of a grave, deep and narrow, where we could clasp each other in our arms as with clamps, and I would hide my face in you and you would hide your face in me, and nobody would ever see us any more.", "Franz Kafka"],
+  ["The deepest and most organic death is death in solitude, when even light becomes a principle of death. In such moments you will be severed from life, from love, smiles, friends and even from death. And you will ask yourself if there is anything besides the nothingness of the world and your own nothingness.", "Emil Cioran"],
+  ["As I have no hope whatever and am nothing in your eyes, I speak openly: I see nothing but you everywhere, and all the rest is naught to me.", "Fyodor Dostoevsky"],
+  ["If and when you fall in love, may you be happy with her. I don’t need to wish her anything, for she’ll be happy with you. May your sky always be clear, may your dear smile always be bright and happy, and may you be for ever blessed for that moment of bliss and happiness which you gave to another lonely and grateful heart. Isn’t such a moment sufficient for the whole of one’s life?", "Fyodor Dostoevsky"],
+  ["I would love you as a bird loves flight, as meat loves salt, as a dog loves chase, as water finds its own level. Or I would not love you at all.", "Jeanette Winterson"]
 ];
 
 var random = "";
@@ -398,6 +408,10 @@ function getQuote() {
 		case "Frédéric Chopin":
 		$('.bg').css("background-image", "url(images/chopin.jpg)");
 		break;
+
+    case "Jeanette Winterson":
+    $('.bg').css("background-image", "url(images/winterson.jpg)");
+    break;
 
     case "Hildegard Von Bingen":
     $('.bg').css("background-image", "url(images/hildegard.jpg)");
