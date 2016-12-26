@@ -190,7 +190,18 @@ var quotes = [
   ["…there was the sea between us again.", "Sylvia Plath"],
   ["Freedom is the possibility of isolation. You are free if you can withdraw from people, not having to seek them out for the sake of money, company, love, glory or curiosity, none of which can thrive in silence and solitude. If you can’t live alone, you were born a slave.", "Fernando Pessoa"],
   ["There I sat, probably looking so dreadful that nothing had the courage to stand by me; not even the candle, which I had just done the service of lighting it, would have anything to do with me. It burned away there by itself, as in an empty room. My last hope was always the window. I imagined that outside there, there still might be something that belonged to me, even now, even in this sudden poverty of dying. But scarcely had I looked thither when I wished the window had been barricaded, blocked up, like the wall. For now I knew that things were going on out there in the same indifferent way, that out there, too, there was nothing but my loneliness. The loneliness I had brought upon myself and to the greatness of which my heart no longer stood in any sort of proportion. People came to my mind whom I had once left, and I did not understand how one could forsake people.", "Rainer Maria Rilke"],
-  ["How Distant Everything Is!<br>I don’t understand why we must do things in this world, why we must have friends and aspirations, hopes and dreams. Wouldn’t it be better to retreat to a faraway corner of the world, where all its noise and complications would be heard no more? Then we could renounce culture and ambitions; we would lose everything and gain nothing; for what is there to be gained from this world? There are people tho whom gain is unimportant, who are hopelessly unhappy and lonely. We are so closed to one another! And yet, were we to be totally open to each other, reading into the depths of our souls, how much of our destiny would we see? We are so lonely in life that we must ask ourselves if the loneliness of dying is not a symbol of our human existence. Can there be any consolation at the last moment? This willingness to live and die in society is a mark of great deficiency. It is a thousand times preferable to die somewhere alone and abandoned so that you can die without melodramatic posturing, unseen by anyone. I despise people who on their deathbed master themselves and adopt a pose in order to impress. Tears do not burn except in solitude. Those who ask to be surrounded by friends when they die do so out of fear and inability to live their final moments alone. They want to forget death at the moment of death. They lack inifinite heroism. Why don’t they lock their door and suffer those maddening sensations with a lucidity and a fear beyond all limits?<br>We are so isolated from everything! But isn’t everything equally inaccessible to us? The deepest and most organic death is death in solitude, when even light becomes a principle of death. In such moments you will be severed from life, from love, smiles, friends and even from death. And you will ask yourself if there is anything besides the nothingness of the world and your own nothingness.", "Emil Cioran"]
+  ["How Distant Everything Is!<br>I don’t understand why we must do things in this world, why we must have friends and aspirations, hopes and dreams. Wouldn’t it be better to retreat to a faraway corner of the world, where all its noise and complications would be heard no more? Then we could renounce culture and ambitions; we would lose everything and gain nothing; for what is there to be gained from this world? There are people tho whom gain is unimportant, who are hopelessly unhappy and lonely. We are so closed to one another! And yet, were we to be totally open to each other, reading into the depths of our souls, how much of our destiny would we see? We are so lonely in life that we must ask ourselves if the loneliness of dying is not a symbol of our human existence. Can there be any consolation at the last moment? This willingness to live and die in society is a mark of great deficiency. It is a thousand times preferable to die somewhere alone and abandoned so that you can die without melodramatic posturing, unseen by anyone. I despise people who on their deathbed master themselves and adopt a pose in order to impress. Tears do not burn except in solitude. Those who ask to be surrounded by friends when they die do so out of fear and inability to live their final moments alone. They want to forget death at the moment of death. They lack inifinite heroism. Why don’t they lock their door and suffer those maddening sensations with a lucidity and a fear beyond all limits?<br>We are so isolated from everything! But isn’t everything equally inaccessible to us? The deepest and most organic death is death in solitude, when even light becomes a principle of death. In such moments you will be severed from life, from love, smiles, friends and even from death. And you will ask yourself if there is anything besides the nothingness of the world and your own nothingness.", "Emil Cioran"],
+  ["Sometimes fate is like a small sandstorm that keeps changing directions. You change direction but the sandstorm chases you. You turn again, but the storm adjusts. Over and over you play this out, like some ominous dance with death just before dawn.", "Haruki Murakami"],
+  ["I am a forest, and a night of dark trees: but he who is not afraid of my darkness, will find banks full of roses under my cypresses.", "Friedrich Nietzsche"],
+  ["Having never discovered qualities in myself that might attract someone else, I could never believe that anyone felt attracted to me. This opinion of myself would be stupidly modest, if facts on facts – those unexpected facts I expected – didn’t always confirm it.", "Fernando Pessoa"],
+  ["Suddenly I’m all alone in the world. I see all this from the summit of a mental rooftop. I’m alone in the world. To see is to be distant. To see clearly is to halt. To analyze is to be foreign. No one who passes by touches me. Around me there is only air. I’m so isolated I can feel the distance between me and my suit. I’m a child in a nightshirt carrying a dimly lit candle and traversing a huge empty house.", "Fernando Pessoa"],
+  ["Words do not express thoughts very well. They always become a little different immediately after they are expressed, a little distorted, a little foolish.", "Hermann Hesse"],
+  ["I was full of letters I hadn’t sent you.", "Anne Sexton"],
+  ["To be silent; to be alone. All the being and the doing, expansive, glittering, vocal, evaporated; and one shrunk, with a sense of solemnity, to being oneself, a wedge-shaped core of darkness, something invisible to others.", "Virginia Woolf"],
+  ["Being with you or without you is how I measure my time.", "Jorge Luis Borges"],
+  ["My whole life has been walking by the side of a bottomless chasm, jumping from stone to stone. Sometimes I try to leave my narrow path and join the swirling mainstream of life, but I always find myself drawn inexorably back to the chasm’s edge, and there I shall walk until I finally fall into the abyss.", "Edvard Munch"],
+  ["Suddenly she realized that what she was regretting was not the lost past but the lost future, not what had not been but what would never be.", "F.Scott Fitzgerald"],
+  ["Killing myself was a matter of such indifference to me that I felt like waiting for a moment when it would make some difference.", "Fyodor Dostoevsky"]
 ];
 
 var random = "";
@@ -253,6 +264,8 @@ function getQuote() {
     var sartre = ['images/sartre.jpg', 'images/sartre2.jpg', 'images/sartre3.jpg',];
     var ionesco = ['images/ionesco.jpg', 'images/ionesco2.jpg', 'images/ionesco3.jpg',];
     var austen = ['images/austen.jpg', 'images/austen2.jpg', 'images/austen3.jpg',];
+    var nietzsche = ['images/nietzsche.jpg', 'images/nietzsche2.jpg', 'images/nietzsche3.jpg',];
+    var borges = ['images/borges.jpg', 'images/borges2.jpg', 'images/borges3.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -452,6 +465,14 @@ function getQuote() {
     $('.bg').css({'background-image' : 'url('+ austen[Math.floor(Math.random() * austen.length)] + ')'});
     break; 
 
+    case "Friedrich Nietzsche":
+    $('.bg').css({'background-image' : 'url('+ nietzsche[Math.floor(Math.random() * nietzsche.length)] + ')'});
+    break; 
+
+    case "Jorge Luis Borges":
+    $('.bg').css({'background-image' : 'url('+ borges[Math.floor(Math.random() * borges.length)] + ')'});
+    break;
+
 		case "Frédéric Chopin":
 		$('.bg').css("background-image", "url(images/chopin.jpg)");
 		break;
@@ -475,6 +496,10 @@ function getQuote() {
 		case "Douglas Hofstadter":
 		$('.bg').css("background-image", "url(images/hofstadter.jpg)");
 		break;
+
+    case "Edvard Munch":
+    $('.bg').css("background-image", "url(images/munch.jpg)");
+    break;
 
     case "Langston Hughes":
     $('.bg').css("background-image", "url(images/langstonhughes.jpg)");
