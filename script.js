@@ -206,7 +206,34 @@ var quotes = [
   ["I have such a fear of finding another like myself, and such a desire to find one! I am so utterly lonely, but I also have such a fear that my isolation be broken through, and I no longer be the head and ruler of my universe.", "Anaïs Nin"],
   ["And the aura of you remains, remains, remains…", "Anne Sexton"],
   ["Most of the dandelions had changed from suns into moons.", "Vladimir Nabokov"],
-  ["All women become like their mothers. That is their tragedy. No man does, and that is his.", "Oscar Wilde"]
+  ["All women become like their mothers. That is their tragedy. No man does, and that is his.", "Oscar Wilde"],
+  ["Perhaps my life is nothing but an image of this kind; perhaps I am doomed to retrace my steps under the illusion that I am exploring, doomed to try and learn what I simply should recognize, learning a mere fraction of what i have forgotten.", "André Breton"],
+  ["All I know is that this substitution of persons stops with you, because nothing can be substituted for you, and because for me it was for all eternity that this succession of terrible and charming enigmas was to come to an end at your feet. You are not an enigma for me.I say that you have turned me from enigmas forever.", "André Breton"],
+  ["Man is a mystery. It needs to be unravelled, and if you spend your whole life unravelling it, don’t say that you’ve wasted time. I am studying that mystery because I want to be a human being.", "Fyodor Dostoevsky"],
+  ["Men are never convinced of your reasons, of your sincerity, of the seriousness of your sufferings, except by your death. So long as you are alive, your case is doubtful; you have a right only to their skepticism.", "Albert Camus"],
+  ["Every act of rebellion expresses a nostalgia for innocence and an appeal to the essence of being.", "Albert Camus"],
+  ["The sun is a thief: she lures the sea<br>and robs it. The moon is a thief:<br>he steals his silvery light from the sun.<br>The sea is a thief: it dissolves the moon.", "Vladimir Nabokov"],
+  ["Dreams have only one owner at a time. That’s why dreamers are lonely.", "William Faulkner"],
+  ["In dreams you don’t need to make any distinctions between things. Not at all. Boundaries don’t exist. So in dreams there are hardly ever collisions. Even if there are, they don’t hurt. Reality is different. Reality bites. Reality, reality.", "Haruki Murakami"],
+  ["If a person continues to see only giants, it means he is still looking at the world through the eyes of a child.", "Anaïs Nin"],
+  ["For now she need not think of anybody. She could be herself, by herself. And that was what now she often felt the need of - to think; well not even to think. To be silent; to be alone. All the being and the doing, expansive, glittering, vocal, evaporated; and one shrunk, with a sense of solemnity, to being oneself, a wedge-shaped core of darkness, something invisible to others… and this self having shed its attachments was free for the strangest adventures.", "Virginia Woolf"],
+  ["I can only note that the past is beautiful because one never realises an emotion at the time. It expands later, and thus we don’t have complete emotions about the present, only about the past.", "Virginia Woolf"],
+  ["All bad poetry springs from genuine feeling. To be natural is to be obvious, and to be obvious is to be inartistic.", "Oscar Wilde"],
+  ["I’m lost. And it’s my own fault. It’s about time I figured out that I can’t ask people to keep me found.", "Anne Sexton"],
+  ["For I have always been a seeker, a dreamer, and a ponderer on seeking and dreaming…", "H.P. Lovecraft"],
+  ["All life is only a set of pictures in the brain, among which there is no difference betwixt those born of real things and those born of inward dreamings, and no cause to value the one above the other.", "H.P. Lovecraft"],
+  ["For I have always been a seeker, a dreamer, and a ponderer on seeking and dreaming…", "Pablo Neruda"],
+  ["I have had to experience so much stupidity, so many vices, so much error, so much nausea, disillusionment and sorrow, just in order to become a child again and begin anew. I had to experience despair, I had to sink to the greatest mental depths, to thoughts of suicide, in order to experience grace.", "Hermann Hesse"],
+  ["Science can never reach a final goal or give a satisfactory explanation. It never aims at the inmost nature of the world; it can never get beyond the [conscious] representation; on the contrary, it really tells us nothing more than the relation of one representation to another.", " Arthur Schopenhauer"],
+  ["My real self wanders elsewhere, far away, wanders on and on invisibly and has nothing to do with my life.", "Hermann Hesse"],
+  ["It is not worth the bother of killing yourself, since you always kill yourself too late.", "Emil Cioran"],
+  ["I am pleasantly located in the deep sea, but love will row you out, if her hands are strong…", "Emily Dickinson"],
+  ["Now I have expanded my life to accommodate my thoughts about you, and there is hardly a quarter of an hour of my waking time when I haven’t thought about you, and many quarter-hours when I do nothing else.", "Franz Kafka"],
+  ["I am an absolute sceptic and materialist, and regard the universe as a wholly purposeless and essentially temporary incident in the ceaseless and boundless rearrangements of electrons, atoms, and molecules which constitute the blind but regular mechanical patterns of cosmic activity. Nothing really matters, and the only thing for a person to do is to take the artificial and traditional values he finds around him and pretend they are real; in order to retain that illusion of significance in life which gives to human events their apparent motivation and semblance of interest.", "H.P. Lovecraft"],
+  ["Memories and possibilities are even more hideous than realities."," H.P. Lovecraft"],
+  ["Life’s true face is the skull.", "Nikos Kazantzakis"],
+  ["I felt it shelter to speak to you.", "Emily Dickinson"],
+  ["And I would hide my face in you and you would hide your face in me, and nobody would ever see us any more.", "Franz Kafka"]
 ];
 
 var random = "";
@@ -273,6 +300,9 @@ function getQuote() {
     var borges = ['images/borges.jpg', 'images/borges2.jpg', 'images/borges3.jpg',];
     var cmarker = ['images/cmarker.jpg', 'images/cmarker2.jpg',];
     var wilde = ['images/wilde.jpg', 'images/wilde2.jpg', 'images/wilde3.jpg',];
+    var faulkner = ['images/faulkner.jpg', 'images/faulkner2.jpg', 'images/faulkner3.jpg',];
+    var lovecraft = ['images/lovecraft.jpg', 'images/lovecraft2.jpg', 'images/lovecraft3.jpg',];
+    var neruda = ['images/neruda.jpg', 'images/neruda2.jpg', 'images/neruda3.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -328,6 +358,10 @@ function getQuote() {
     $('.bg').css({'background-image' : 'url('+ strindberg[Math.floor(Math.random() * strindberg.length)] + ')'});
     break;
 
+    case "William Faulkner":
+    $('.bg').css({'background-image' : 'url('+ faulkner[Math.floor(Math.random() * faulkner.length)] + ')'});
+    break;
+
     case "Roland Barthes":
     $('.bg').css({'background-image' : 'url('+ barthes[Math.floor(Math.random() * barthes.length)] + ')'});
     break;
@@ -356,6 +390,10 @@ function getQuote() {
     $('.bg').css({'background-image' : 'url('+ murakami[Math.floor(Math.random() * murakami.length)] + ')'});
     break;
 
+    case "H.P. Lovecraft":
+    $('.bg').css({'background-image' : 'url('+ lovecraft[Math.floor(Math.random() * lovecraft.length)] + ')'});
+    break;
+
     case "Rainer Maria Rilke":
     $('.bg').css({'background-image' : 'url('+ rilke[Math.floor(Math.random() * rilke.length)] + ')'});
     break;
@@ -374,6 +412,10 @@ function getQuote() {
 
     case "Arthur Rimbaud":
     $('.bg').css({'background-image' : 'url('+ rimbaud[Math.floor(Math.random() * rimbaud.length)] + ')'});
+    break;
+
+    case "Pablo Neruda":
+    $('.bg').css({'background-image' : 'url('+ neruda[Math.floor(Math.random() * neruda.length)] + ')'});
     break;
 
     case "Albert Camus":
