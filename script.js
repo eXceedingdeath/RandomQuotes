@@ -201,7 +201,12 @@ var quotes = [
   ["Being with you or without you is how I measure my time.", "Jorge Luis Borges"],
   ["My whole life has been walking by the side of a bottomless chasm, jumping from stone to stone. Sometimes I try to leave my narrow path and join the swirling mainstream of life, but I always find myself drawn inexorably back to the chasm’s edge, and there I shall walk until I finally fall into the abyss.", "Edvard Munch"],
   ["Suddenly she realized that what she was regretting was not the lost past but the lost future, not what had not been but what would never be.", "F.Scott Fitzgerald"],
-  ["Killing myself was a matter of such indifference to me that I felt like waiting for a moment when it would make some difference.", "Fyodor Dostoevsky"]
+  ["Killing myself was a matter of such indifference to me that I felt like waiting for a moment when it would make some difference.", "Fyodor Dostoevsky"],
+  ["I have spent my life trying to understand the function of remembering, which is not the opposite of forgetting, but rather its inner lining. We don’t remember. We write memory much as history is rewritten.", "Chris Marker"],
+  ["I have such a fear of finding another like myself, and such a desire to find one! I am so utterly lonely, but I also have such a fear that my isolation be broken through, and I no longer be the head and ruler of my universe.", "Anaïs Nin"],
+  ["And the aura of you remains, remains, remains…", "Anne Sexton"],
+  ["Most of the dandelions had changed from suns into moons.", "Vladimir Nabokov"],
+  ["All women become like their mothers. That is their tragedy. No man does, and that is his.", "Oscar Wilde"]
 ];
 
 var random = "";
@@ -266,6 +271,8 @@ function getQuote() {
     var austen = ['images/austen.jpg', 'images/austen2.jpg', 'images/austen3.jpg',];
     var nietzsche = ['images/nietzsche.jpg', 'images/nietzsche2.jpg', 'images/nietzsche3.jpg',];
     var borges = ['images/borges.jpg', 'images/borges2.jpg', 'images/borges3.jpg',];
+    var cmarker = ['images/cmarker.jpg', 'images/cmarker2.jpg',];
+    var wilde = ['images/wilde.jpg', 'images/wilde2.jpg', 'images/wilde3.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -411,6 +418,14 @@ function getQuote() {
 
     case "David Malouf":
     $('.bg').css({'background-image' : 'url('+ malouf[Math.floor(Math.random() * malouf.length)] + ')'});
+    break; 
+
+    case "Chris Marker":
+    $('.bg').css({'background-image' : 'url('+ cmarker[Math.floor(Math.random() * cmarker.length)] + ')'});
+    break; 
+
+    case "Oscar Wilde":
+    $('.bg').css({'background-image' : 'url('+ wilde[Math.floor(Math.random() * wilde.length)] + ')'});
     break; 
 
     case "Plato":
