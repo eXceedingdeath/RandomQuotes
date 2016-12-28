@@ -233,7 +233,14 @@ var quotes = [
   ["Memories and possibilities are even more hideous than realities."," H.P. Lovecraft"],
   ["Life’s true face is the skull.", "Nikos Kazantzakis"],
   ["I felt it shelter to speak to you.", "Emily Dickinson"],
-  ["And I would hide my face in you and you would hide your face in me, and nobody would ever see us any more.", "Franz Kafka"]
+  ["And I would hide my face in you and you would hide your face in me, and nobody would ever see us any more.", "Franz Kafka"],
+  ["Every one of us is, in the cosmic perspective, precious. If a human disagrees with you, let him live. In a hundred billion galaxies, you will not find another.", "Carl Sagan"],
+  ["We think there are beings like ourselves around us and instead there is nothing but ice and stones speaking a strange language; we are on the point of greeting a friend but our arm falls inert, the smile dies away because we are completely alone.", "Dino Buzzati"],
+  ["What a strange machine man is! You fill him with bread, wine, fish, radishes, and out of him come sighs, laughter and dreams.", "Nikos Kazantzakis"],
+  ["The real meaning of enlightenment is to gaze with undimmed eyes on all darkness.", "Nikos Kazantzakis"],
+  ["My soul comes from better worlds and I have an incurable homesickness of the stars.", "Nikos Kazantzakis"],
+  ["…By being too sensitive I have wasted my life.","Arthur Rimbaud"],
+  ["I want you always to remember me. Will you remember that I existed, and that I stood next to you here like this?", "Haruki Murakami"]
 ];
 
 var random = "";
@@ -303,6 +310,8 @@ function getQuote() {
     var faulkner = ['images/faulkner.jpg', 'images/faulkner2.jpg', 'images/faulkner3.jpg',];
     var lovecraft = ['images/lovecraft.jpg', 'images/lovecraft2.jpg', 'images/lovecraft3.jpg',];
     var neruda = ['images/neruda.jpg', 'images/neruda2.jpg', 'images/neruda3.jpg',];
+    var sagan = ['images/sagan.jpg', 'images/sagan2.jpg', 'images/sagan3.jpg', 'images/sagan4.jpg', 'images/sagan5.jpg', 'images/sagan6.jpg',];
+    var buzzati = ['images/buzzati.jpg', 'images/buzzati2.jpg', 'images/buzzati3.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -414,6 +423,10 @@ function getQuote() {
     $('.bg').css({'background-image' : 'url('+ rimbaud[Math.floor(Math.random() * rimbaud.length)] + ')'});
     break;
 
+    case "Dino Buzzati":
+    $('.bg').css({'background-image' : 'url('+ buzzati[Math.floor(Math.random() * buzzati.length)] + ')'});
+    break;
+
     case "Pablo Neruda":
     $('.bg').css({'background-image' : 'url('+ neruda[Math.floor(Math.random() * neruda.length)] + ')'});
     break;
@@ -432,6 +445,10 @@ function getQuote() {
 
     case "Anne Sexton":
     $('.bg').css({'background-image' : 'url('+ sexton[Math.floor(Math.random() * sexton.length)] + ')'});
+    break;
+
+    case "Carl Sagan":
+    $('.bg').css({'background-image' : 'url('+ sagan[Math.floor(Math.random() * sagan.length)] + ')'});
     break;
 
     case "T.S. Eliot":
