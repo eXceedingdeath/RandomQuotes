@@ -240,7 +240,13 @@ var quotes = [
   ["The real meaning of enlightenment is to gaze with undimmed eyes on all darkness.", "Nikos Kazantzakis"],
   ["My soul comes from better worlds and I have an incurable homesickness of the stars.", "Nikos Kazantzakis"],
   ["…By being too sensitive I have wasted my life.","Arthur Rimbaud"],
-  ["I want you always to remember me. Will you remember that I existed, and that I stood next to you here like this?", "Haruki Murakami"]
+  ["I want you always to remember me. Will you remember that I existed, and that I stood next to you here like this?", "Haruki Murakami"],
+  ["I am a dreamer. I know so little of real life that I just can’t help re-living such moments as these in my dreams, for such moments are something I have very rarely experienced. I am going to dream about you the whole night, the whole week, the whole year", "Fyodor Dostoevsky"],
+  ["What a weary time those years were — to have the desire and the need to live but not the ability.", "Charles Bukowski"],
+  ["I am not well; I could have built the Pyramids with the effort it takes me to cling on to life and reason.", "Franz Kafka"],
+  ["You say I resemble a flower; I partly agree; My brain is governed by black petals of burnt daisies.", "Anne Sexton"],
+  ["I don’t want to know that you are fond of me. If I did, how could I, fool that I am, go on sitting in my office, or here at home, instead of leaping onto a train with my eyes shut and opening them only when I am with you.", "Franz Kafka"],
+  ["I have endured so long<br>That I have forgotten everything;<br>Fear and suffering <br>Have flown to the skies.<br>And morbid thirst<br>Darkens my veins.", "Arthur Rimbaud"]
 ];
 
 var random = "";
@@ -312,6 +318,7 @@ function getQuote() {
     var neruda = ['images/neruda.jpg', 'images/neruda2.jpg', 'images/neruda3.jpg',];
     var sagan = ['images/sagan.jpg', 'images/sagan2.jpg', 'images/sagan3.jpg', 'images/sagan4.jpg', 'images/sagan5.jpg', 'images/sagan6.jpg',];
     var buzzati = ['images/buzzati.jpg', 'images/buzzati2.jpg', 'images/buzzati3.jpg',];
+    var bukowski = ['images/bukowski.jpg', 'images/bukowski2.jpg', 'images/bukowski3.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -361,6 +368,10 @@ function getQuote() {
 
     case "Emily Dickinson":
     $('.bg').css({'background-image' : 'url('+ dickinson[Math.floor(Math.random() * dickinson.length)] + ')'});
+    break;
+
+    case "Charles Bukowski":
+    $('.bg').css({'background-image' : 'url('+ bukowski[Math.floor(Math.random() * bukowski.length)] + ')'});
     break;
 
     case "August Strindberg":
