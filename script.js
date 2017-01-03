@@ -246,7 +246,11 @@ var quotes = [
   ["I am not well; I could have built the Pyramids with the effort it takes me to cling on to life and reason.", "Franz Kafka"],
   ["You say I resemble a flower; I partly agree; My brain is governed by black petals of burnt daisies.", "Anne Sexton"],
   ["I don’t want to know that you are fond of me. If I did, how could I, fool that I am, go on sitting in my office, or here at home, instead of leaping onto a train with my eyes shut and opening them only when I am with you.", "Franz Kafka"],
-  ["I have endured so long<br>That I have forgotten everything;<br>Fear and suffering <br>Have flown to the skies.<br>And morbid thirst<br>Darkens my veins.", "Arthur Rimbaud"]
+  ["I have endured so long<br>That I have forgotten everything;<br>Fear and suffering <br>Have flown to the skies.<br>And morbid thirst<br>Darkens my veins.", "Arthur Rimbaud"],
+  ["4 December. To die would mean nothing else than to surrender a nothing to the nothing, but that would be impossible to conceive, for how could a person, even only as a nothing, consciously surrender himself to the nothing, and not merely to an empty nothing but rather to a roaring nothing whose nothingness consists only in its incomprehensibility.", "Franz Kafka"],
+  ["To pity those that know her not<br>Is helped by the regret<br>That those who know her, know her less<br>The nearer her they get.", "Emily Dickinson"],
+  ["I inhabit the wax image of myself, a doll’s body.<br>Sickness begins here: I am the dartboard for witches.<br>Only the devil can eat the devil out.<br>In the month of red leaves I climb to a bed of fire.", "Sylvia Plath"],
+  ["And the night smells like snow. Walking home for a moment you almost believe you could start again. And an intense love rushes to your heart, and hope. It’s unendurable, unendurable.", "Franz Wright"]
 ];
 
 var random = "";
@@ -319,6 +323,7 @@ function getQuote() {
     var sagan = ['images/sagan.jpg', 'images/sagan2.jpg', 'images/sagan3.jpg', 'images/sagan4.jpg', 'images/sagan5.jpg', 'images/sagan6.jpg',];
     var buzzati = ['images/buzzati.jpg', 'images/buzzati2.jpg', 'images/buzzati3.jpg',];
     var bukowski = ['images/bukowski.jpg', 'images/bukowski2.jpg', 'images/bukowski3.jpg',];
+    var fwright = ['images/fwright.jpg', 'images/fwright2.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -396,6 +401,10 @@ function getQuote() {
 
     case "Andrei Tarkovsky":
     $('.bg').css({'background-image' : 'url('+ tarkovsky[Math.floor(Math.random() * tarkovsky.length)] + ')'});
+    break;
+
+    case "Franz Wright":
+    $('.bg').css({'background-image' : 'url('+ fwright[Math.floor(Math.random() * fwright.length)] + ')'});
     break;
 
     case "Vladimir Nabokov":
