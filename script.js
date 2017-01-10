@@ -224,7 +224,7 @@ var quotes = [
   ["All life is only a set of pictures in the brain, among which there is no difference betwixt those born of real things and those born of inward dreamings, and no cause to value the one above the other.", "H.P. Lovecraft"],
   ["For I have always been a seeker, a dreamer, and a ponderer on seeking and dreaming…", "Pablo Neruda"],
   ["I have had to experience so much stupidity, so many vices, so much error, so much nausea, disillusionment and sorrow, just in order to become a child again and begin anew. I had to experience despair, I had to sink to the greatest mental depths, to thoughts of suicide, in order to experience grace.", "Hermann Hesse"],
-  ["Science can never reach a final goal or give a satisfactory explanation. It never aims at the inmost nature of the world; it can never get beyond the [conscious] representation; on the contrary, it really tells us nothing more than the relation of one representation to another.", " Arthur Schopenhauer"],
+  ["Science can never reach a final goal or give a satisfactory explanation. It never aims at the inmost nature of the world; it can never get beyond the conscious representation; on the contrary, it really tells us nothing more than the relation of one representation to another.", "Arthur Schopenhauer"],
   ["My real self wanders elsewhere, far away, wanders on and on invisibly and has nothing to do with my life.", "Hermann Hesse"],
   ["It is not worth the bother of killing yourself, since you always kill yourself too late.", "Emil Cioran"],
   ["I am pleasantly located in the deep sea, but love will row you out, if her hands are strong…", "Emily Dickinson"],
@@ -250,7 +250,21 @@ var quotes = [
   ["4 December. To die would mean nothing else than to surrender a nothing to the nothing, but that would be impossible to conceive, for how could a person, even only as a nothing, consciously surrender himself to the nothing, and not merely to an empty nothing but rather to a roaring nothing whose nothingness consists only in its incomprehensibility.", "Franz Kafka"],
   ["To pity those that know her not<br>Is helped by the regret<br>That those who know her, know her less<br>The nearer her they get.", "Emily Dickinson"],
   ["I inhabit the wax image of myself, a doll’s body.<br>Sickness begins here: I am the dartboard for witches.<br>Only the devil can eat the devil out.<br>In the month of red leaves I climb to a bed of fire.", "Sylvia Plath"],
-  ["And the night smells like snow. Walking home for a moment you almost believe you could start again. And an intense love rushes to your heart, and hope. It’s unendurable, unendurable.", "Franz Wright"]
+  ["And the night smells like snow. Walking home for a moment you almost believe you could start again. And an intense love rushes to your heart, and hope. It’s unendurable, unendurable.", "Franz Wright"],
+  ["Once one has understood, it would be best to drop dead on the spot. What is to understand? What we have really grasped cannot be expressed in any way at all, and cannot be transmitted to anyone else, not even to oneself, so that we die without knowing the exact nature of our own secret.", "Emil Cioran"],
+  ["Now the sirens have a still more fatal weapon than their song, namely their silence. Someone might have escaped from their singing; but from their silence, certainly never.", "Franz Kafka"],
+  ["I am the sort of man who has changed completely under the effect of suffering, even though this transformation may simply be the intensification of elements already there. Thus amplified, they gave an entirely new perspective on life. I believe frenetically and fanatically, in the virtues of suffering and of anxiety, and I believe in them especially since, though I’ve suffered greatly and despaired much, I nevertheless acquired through them a sense of my own destiny, a sort of weird enthusiasm for my mission. On the heights of the most terrifying despair, I experience the joy of having a destiny, of living a life of successive deaths and transfigurations, of turning every moment into a cross-road. And I am proud that my life begins with death, unlike the majority of people, who end with death. I feel as if my death were in the past, and the future looks to me like a sort of personal illumination.", "Emil Cioran"],
+  ["You who suffer because you love, love still more. To die of love, is to live by it.", "Victor Hugo"],
+  ["I suffer cruelly. Misunderstandings and worry hurt me instantly like the stab of a knife.", "Antoine de Saint-Exupéry"],
+  ["The greatest lesson the depressive learns: Nothing in the world is inherently compelling… Nothing is either good or bad, desirable or undesirable, or anything else except that it is made so by laboratories inside us producing the emotions on which we live. And to live on our emotions is to live arbitrarily, inaccurately – imparting meaning to what has none of its own. Yet what other way is there to live?", "Thomas Ligotti"],
+  ["During last night’s insomnia, as these thoughts came and went between my aching temples, I realised once again, what I had almost forgotten in this recent period of relative calm, that I tread a terribly tenuous, indeed almost non-existent soil spread over a pit full of shadows, whence the powers of darkness emerge at will to destroy my life…", "Franz Kafka"],
+  ["So that’s when it hit me. These guys are fakes. All they’ve got on their minds is impressing the new girls with the big words they’re so proud of, while sticking their hands up their skirts. And when they graduate, they cut their hair short and march off to work for Mitsubishi or IBM or Fuji Bank. They marry pretty wives who’ve never read Marx and have kids they give fancy new names to that are enough to make you puke. Smash what educational-industrial complex? Don’t make me laugh!", "Haruki Murakami"],
+  ["‘I love humanity,’ he said, ‘but I wonder at myself. The more I love humanity in general, the less I love man in particular. In my dreams,’ he said, 'I have often come to making enthusiastic schemes for the service of humanity, and perhaps I might actually have faced crucifixion if it has been suddenly necessary; and yet I am incapable of living in the same room with anyone for two days together, as I know by experience. As soon as anyone is near me, his personality disturbs my self-complacency and restricts my freedom. In twenty-four hours I begin to hate the best of men: one because he’s too long over his dinner; another because he has a cold and keeps on blowing his nose. I become hostile to people the moment they come close to my. But it has always happened that the more I detest men individually the more ardent becomes my love for humanity.", "Fyodor Dostoevsky"],
+  ["I have spent all my life resisting the desire to end it.", "Franz Kafka"],
+  ["No other life forms know they are alive, and neither do they know they will die. This is our curse alone.", "Thomas Ligotti"],
+  ["Not even the human<br>imagination satisfies<br>the endless emptiness of the soul.", "Allen Ginsberg"],
+  ["I am alone, I thought, and they are everybody.", "Fyodor Dostoevsky"],
+  ["My thoughts are crabbed and sallow,<br>My tears like vinegar,<br>Or the bitter blinking yellow<br>Of an acetic star.", "Sylvia Plath"]
 ];
 
 var random = "";
@@ -324,6 +338,10 @@ function getQuote() {
     var buzzati = ['images/buzzati.jpg', 'images/buzzati2.jpg', 'images/buzzati3.jpg',];
     var bukowski = ['images/bukowski.jpg', 'images/bukowski2.jpg', 'images/bukowski3.jpg',];
     var fwright = ['images/fwright.jpg', 'images/fwright2.jpg',];
+    var vhugo = ['images/vhugo.jpg', 'images/vhugo2.jpg', 'images/vhugo3.jpg',];
+    var exupery = ['images/exupery.jpg', 'images/exupery2.jpg', 'images/exupery3.jpg',];
+    var ligotti = ['images/ligotti.jpg', 'images/ligotti2.jpg',];
+    var ginsberg = ['images/ginsberg.jpg', 'images/ginsberg2.jpg', 'images/ginsberg3.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -371,6 +389,10 @@ function getQuote() {
 		$('.bg').css({'background-image' : 'url('+ woolf[Math.floor(Math.random() * woolf.length)] + ')'});
 		break;
 
+    case "Antoine de Saint-Exupéry":
+    $('.bg').css({'background-image' : 'url('+ exupery[Math.floor(Math.random() * exupery.length)] + ')'});
+    break;
+
     case "Emily Dickinson":
     $('.bg').css({'background-image' : 'url('+ dickinson[Math.floor(Math.random() * dickinson.length)] + ')'});
     break;
@@ -391,8 +413,20 @@ function getQuote() {
     $('.bg').css({'background-image' : 'url('+ barthes[Math.floor(Math.random() * barthes.length)] + ')'});
     break;
 
+    case "Allen Ginsberg":
+    $('.bg').css({'background-image' : 'url('+ ginsberg[Math.floor(Math.random() * ginsberg.length)] + ')'});
+    break;
+
+    case "Victor Hugo":
+    $('.bg').css({'background-image' : 'url('+ vhugo[Math.floor(Math.random() * vhugo.length)] + ')'});
+    break;
+
     case "Anaïs Nin":
     $('.bg').css({'background-image' : 'url('+ anaisnin[Math.floor(Math.random() * anaisnin.length)] + ')'});
+    break;
+
+    case "Thomas Ligotti":
+    $('.bg').css({'background-image' : 'url('+ ligotti[Math.floor(Math.random() * ligotti.length)] + ')'});
     break;
 
     case "Italo Calvino":
