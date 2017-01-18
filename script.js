@@ -264,7 +264,12 @@ var quotes = [
   ["No other life forms know they are alive, and neither do they know they will die. This is our curse alone.", "Thomas Ligotti"],
   ["Not even the human<br>imagination satisfies<br>the endless emptiness of the soul.", "Allen Ginsberg"],
   ["I am alone, I thought, and they are everybody.", "Fyodor Dostoevsky"],
-  ["My thoughts are crabbed and sallow,<br>My tears like vinegar,<br>Or the bitter blinking yellow<br>Of an acetic star.", "Sylvia Plath"]
+  ["My thoughts are crabbed and sallow,<br>My tears like vinegar,<br>Or the bitter blinking yellow<br>Of an acetic star.", "Sylvia Plath"],
+  ["There is no reality except the one contained within us. That is why so many people live such an unreal life. They take the images outside of them for reality and never allow the world within to assert itself.", "Hermann Hesse"],
+  ["If time is not real, then the dividing line between this world and eternity, between suffering and bliss, between good and evil, is also an illusion.", "Hermann Hesse"],
+  ["I have this vision: That I would finally come and find you. Scattered pieces of distance would not stand in my way. Not needing words; the barest of glimpses would suffice for you and me.", "Franz Kafka"],
+  ["I do know that for the sympathy of one living being, I would make peace with all. I have love in me the likes of which you can scarcely imagine and rage the likes of which you would not believe. If I cannot satisfy the one, I will indulge the other.", "Mary Shelley"],
+  ["How dangerous is the acquirement of knowledge and how much happier that man is who believes his native town to be the world, than he who aspires to be greater than his nature will allow.", "Mary Shelley"]
 ];
 
 var random = "";
@@ -342,6 +347,7 @@ function getQuote() {
     var exupery = ['images/exupery.jpg', 'images/exupery2.jpg', 'images/exupery3.jpg',];
     var ligotti = ['images/ligotti.jpg', 'images/ligotti2.jpg',];
     var ginsberg = ['images/ginsberg.jpg', 'images/ginsberg2.jpg', 'images/ginsberg3.jpg',];
+    var shelley = ['images/shelley.jpg', 'images/shelley2.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -384,6 +390,10 @@ function getQuote() {
 		case "Fernando Pessoa":
 		$('.bg').css({'background-image' : 'url('+ pessoa[Math.floor(Math.random() * pessoa.length)] + ')'});
 		break;
+
+    case "Mary Shelley":
+    $('.bg').css({'background-image' : 'url('+ shelley[Math.floor(Math.random() * shelley.length)] + ')'});
+    break;
 
 		case "Virginia Woolf":
 		$('.bg').css({'background-image' : 'url('+ woolf[Math.floor(Math.random() * woolf.length)] + ')'});
