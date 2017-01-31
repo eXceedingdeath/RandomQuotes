@@ -269,7 +269,20 @@ var quotes = [
   ["If time is not real, then the dividing line between this world and eternity, between suffering and bliss, between good and evil, is also an illusion.", "Hermann Hesse"],
   ["I have this vision: That I would finally come and find you. Scattered pieces of distance would not stand in my way. Not needing words; the barest of glimpses would suffice for you and me.", "Franz Kafka"],
   ["I do know that for the sympathy of one living being, I would make peace with all. I have love in me the likes of which you can scarcely imagine and rage the likes of which you would not believe. If I cannot satisfy the one, I will indulge the other.", "Mary Shelley"],
-  ["How dangerous is the acquirement of knowledge and how much happier that man is who believes his native town to be the world, than he who aspires to be greater than his nature will allow.", "Mary Shelley"]
+  ["How dangerous is the acquirement of knowledge and how much happier that man is who believes his native town to be the world, than he who aspires to be greater than his nature will allow.", "Mary Shelley"],
+  ["My life does not run or flow, but crawls along.", "Anton Chekhov"],
+  ["I feel more and more every day, as my imagination strengthens, that I do not live in this world alone but in a thousand worlds.", "John Keats"],
+  ["The truth is that human beings have neither kindness, nor faith, nor charity beyond what serves to increase the pleasure of the moment. They hunt in packs. Their packs scour the desert and vanish screaming into the wilderness.", "Virginia Woolf"],
+  ["What is the meaning of life? That was all—a simple question; one that tended to close in on one with years. The great revelation had never come. The great revelation perhaps never did come. Instead there were little daily miracles, illuminations, matches struck unexpectedly in the dark.", "Virginia Woolf"],
+  ["Each had his past shut in him like the leaves of a book known to him by heart; and his friends could only read the title.", "Virginia Woolf"],
+  ["You’re sorry that the ephemeral beauty has faded so rapidly, so irretrievably, that it flashed so deceptively and pointlessly before your eyes—you’re sorry, for you didn’t even have time to fall in love.", "Fyodor Dostoevsky"],
+  ["How can I begin anything new with all of yesterday in me?", "Leonard Cohen"],
+  ["I can love only what I can place so high above me that I cannot reach it.", "Franz Kafka"],
+  ["I suppose like others<br>I have come through fire and sword,<br>love gone wrong,<br>head-on crashes, drunk at sea,<br>and I have listened to the simple sound of water running<br>in tubs<br>and wished to drown", "Charles Bukowski"],
+  ["In One of the Earth’s Attics: “I have dreamed of distant springs, of a sun shining on nothing but seafoam and the oblivion of my birth, of a sun opposed to the earth and to this disease of finding nothing anywhere but the desire to be somewhere else. The earthly fate – who has inflicted it upon us, who has chained us to this morose matter, a petrified tear against which – born of time – our tears shatter, whereas it has fallen, immemorial, from God’s first shudder?<br>I have loathed the planet’s noons and midnights, I have longed for a world without weather, without hours and the fear that swells them, I have hated the sighs of mortals under the weight of ages. Where is the moment without end and without desire, and that primal vacancy insensitive to the presentiments of disaster and of life? I have sought for the geography of Nothingness, of unknown seas and another sun – pure of the scandal of life-bearing rays – I have sought for the rocking of a skeptical ocean in which islands and axioms are drowned, the vast liquid narcotic, tepid and sweet and tired of knowledge…<br>This earth – sin of the Creator! But I no longer want to expiate others’ sins. I want to be cured of my begetting in an agony outside the continents, in some fluid desert, in an impersonal shipwreck.", "Emil Cioran"],
+  ["The pessimist’s credo, or one of them, is that nonexistence never hurts anyone and existence hurts everyone. Although our selves may be illusory creations of consciousness, our pain is nonetheless real.", "Thomas Ligotti"],
+  ["I feel as if I had been in the world a thousand years, and I trail my life behind me like an endless scarf. Often I have no desire to live at all.", "Anton Chekhov"],
+  ["I was settled into nothingness; a kind of non-being, and I accepted it. It didn’t make for an interesting person. I didn’t want to be interesting, it was too hard. What I really wanted was only a soft, hazy space to live in, and to be left alone.", "Charles Bukowski"]
 ];
 
 var random = "";
@@ -348,6 +361,8 @@ function getQuote() {
     var ligotti = ['images/ligotti.jpg', 'images/ligotti2.jpg',];
     var ginsberg = ['images/ginsberg.jpg', 'images/ginsberg2.jpg', 'images/ginsberg3.jpg',];
     var shelley = ['images/shelley.jpg', 'images/shelley2.jpg',];
+    var chekhov = ['images/chekhov.jpg', 'images/chekhov2.jpg', 'images/chekhov3.jpg',];
+    var lcohen = ['images/lcohen.jpg', 'images/lcohen2.jpg', 'images/lcohen3.jpg', 'images/lcohen4.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -411,6 +426,10 @@ function getQuote() {
     $('.bg').css({'background-image' : 'url('+ bukowski[Math.floor(Math.random() * bukowski.length)] + ')'});
     break;
 
+    case "Anton Chekhov":
+    $('.bg').css({'background-image' : 'url('+ bukowski[Math.floor(Math.random() * bukowski.length)] + ')'});
+    break;
+
     case "August Strindberg":
     $('.bg').css({'background-image' : 'url('+ strindberg[Math.floor(Math.random() * strindberg.length)] + ')'});
     break;
@@ -425,6 +444,10 @@ function getQuote() {
 
     case "Allen Ginsberg":
     $('.bg').css({'background-image' : 'url('+ ginsberg[Math.floor(Math.random() * ginsberg.length)] + ')'});
+    break;
+
+    case "Leonard Cohen":
+    $('.bg').css({'background-image' : 'url('+ lcohen[Math.floor(Math.random() * lcohen.length)] + ')'});
     break;
 
     case "Victor Hugo":
@@ -625,6 +648,10 @@ function getQuote() {
 
     case "George Seferis":
     $('.bg').css("background-image", "url(images/seferis.jpg)");
+    break;
+
+    case "John Keats":
+    $('.bg').css("background-image", "url(images/keats.jpg)");
     break;
 
     case "Yannis Ritsos":
