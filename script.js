@@ -287,7 +287,15 @@ var quotes = [
   ["My presence in this world will disturb a few tranquil lives and will unsettle the unconscious and pleasant naiveté of others. Although I feel that my tragedy is the greatest in history—greater than the fall of empires—I am nevertheless aware of my total insignificance. I am absolutely persuaded that I am nothing in this universe; yet I feel that mine is the only real existence.", "Emil Cioran"],
   ["Two souls don’t find each other by simple accident.", "Jorge Luis Borges"],
   ["How did I get into the world? Why was I not asked about it and why was I not informed of the rules and regulations but just thrust into the ranks as if I had been bought by a peddling shanghaier of human beings? How did I get involved in this big enterprise called actuality? Why should I be involved? Isn’t it a matter of choice? And if I am compelled to be involved, where is the manager—I have something to say about this. Is there no manager? To whom shall I make my complaint?", "Soren Kierkegaard"],
-  ["I’m a ghost that everyone can see", "Franz Wright"]
+  ["I’m a ghost that everyone can see", "Franz Wright"],
+  ["I can’t think of any greater happiness than to be with you all the time, without interruption, endlessly, even though I feel that here in this world there’s no undisturbed place for our love, neither in the village nor anywhere else; and I dream of a grave, deep and narrow, where we could clasp each other in our arms as with clamps, and I would hide my face in you and you would hide your face in me, and nobody would ever see us any more.", "Franz Kafka"],
+  ["He’s more myself than I am. Whatever our souls are made of, his and mine are the same.", "Emily Brontë"],
+  ["I will no longer mutilate and destroy myself in order to find a secret behind the ruins.", "Hermann Hesse"],
+  ["Do all people have that? A face, a phrase, a landscape, an air bubble from the past suddenly floating up as if released by the head warden’s child from a cell in the brain while the mind is at work on some totally different matter? Something of the sort also occurs just before falling asleep when what you think you are thinking is not at all what you think. Or two parallel passenger trains of thought, one overtaking the other.", "Vladimir Nabokov"],
+  ["The beauty of flames lies in their strange play, beyond all proportion and harmony. Their diaphanous flare symbolizes at once grace and tragedy, innocence and despair, sadness and voluptuousness. The burning transcendence has something of the lightness of great purifications. I wish the fiery transcendence would carry me up and throw me into a sea of flames, where, consumed by their delicate and insidious tongues, I would die an ecstatic death. The beauty of flames creates the illusion of a pure, sublime death similar to the light of dawn. Immaterial, death in flames is like a burning of light, graceful wings. Do only butterflies die in flames? What about those devoured by the flames within them?", "Emil Cioran"],
+  ["The distance between the crowd, between the others and me, grows wider … I feel the distance like a wound.", "Anaïs Nin"],
+  ["I was made of delicate substance, mysterious time.<br>Perhaps the source is within me.<br>Perhaps the days emerge,<br>fatal and illusory,<br>from my shadow", "Jorge Luis Borges"],
+  ["Give me that dark moment I will carry it everywhere like a mouthful of rain.", "Rainer Maria Rilke"]
 ];
 
 var random = "";
@@ -368,6 +376,7 @@ function getQuote() {
     var shelley = ['images/shelley.jpg', 'images/shelley2.jpg',];
     var chekhov = ['images/chekhov.jpg', 'images/chekhov2.jpg', 'images/chekhov3.jpg',];
     var lcohen = ['images/lcohen.jpg', 'images/lcohen2.jpg', 'images/lcohen3.jpg', 'images/lcohen4.jpg',];
+    var ebronte = ['images/ebronte.jpg', 'images/ebronte2.jpg', 'images/ebronte3.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -437,6 +446,10 @@ function getQuote() {
 
     case "August Strindberg":
     $('.bg').css({'background-image' : 'url('+ strindberg[Math.floor(Math.random() * strindberg.length)] + ')'});
+    break;
+
+    case "Emily Brontë":
+    $('.bg').css({'background-image' : 'url('+ ebronte[Math.floor(Math.random() * ebronte.length)] + ')'});
     break;
 
     case "William Faulkner":
