@@ -295,7 +295,12 @@ var quotes = [
   ["The beauty of flames lies in their strange play, beyond all proportion and harmony. Their diaphanous flare symbolizes at once grace and tragedy, innocence and despair, sadness and voluptuousness. The burning transcendence has something of the lightness of great purifications. I wish the fiery transcendence would carry me up and throw me into a sea of flames, where, consumed by their delicate and insidious tongues, I would die an ecstatic death. The beauty of flames creates the illusion of a pure, sublime death similar to the light of dawn. Immaterial, death in flames is like a burning of light, graceful wings. Do only butterflies die in flames? What about those devoured by the flames within them?", "Emil Cioran"],
   ["The distance between the crowd, between the others and me, grows wider … I feel the distance like a wound.", "Anaïs Nin"],
   ["I was made of delicate substance, mysterious time.<br>Perhaps the source is within me.<br>Perhaps the days emerge,<br>fatal and illusory,<br>from my shadow", "Jorge Luis Borges"],
-  ["Give me that dark moment I will carry it everywhere like a mouthful of rain.", "Rainer Maria Rilke"]
+  ["Give me that dark moment I will carry it everywhere like a mouthful of rain.", "Rainer Maria Rilke"],
+  ["Solitude is indeed dangerous for a working intelligence. We need to have around us people who think and speak. When we are alone for a long time we people the void with phantoms.", "Guy De Maupassant"],
+  ["To change one’s life:<br>1. Start immediately.<br>2. Do it flamboyantly.<br>3. No exceptions.", "William James"],
+  ["The cradle rocks above an abyss, and common sense tells us that our existence is but a brief crack of light between two eternities of darkness. Although the two are identical twins, man, as a rule, views the prenatal abyss with more calm than the one he is heading for (at some forty-five hundred heartbeats an hour). I know, however, of a young chronophobiac who experienced something like panic when looking for the first time at homemade movies that had been taken a few weeks before his birth. He saw a world that was practically unchanged-the same house, the same people- and then realized that he did not exist there at all and that nobody mourned his absence. He caught a glimpse of his mother waving from an upstairs window, and that unfamiliar gesture disturbed him, as if it were some mysterious farewell. But what particularly frightened him was the sight of a brand-new baby carriage standing there on the porch, with the smug, encroaching air of a coffin; even that was empty, as if, in the reverse course of events, his very bones had disintegrated.", "Vladimir Nabokov"],
+  ["I don’t want to be present in the events that I participate in. I try to become invisible. I perceive myself as someone who shouldn’t exist", "Slavoj Žižek "],
+  ["Perhaps we don't like what we see: our hips, our loss of hair, our shoe size, our dimples, our knuckles too big, our eating habits, our disposition. We have disclosed these things in secret, likes and dislikes, behind doors with locks, our lonely rooms, our messy desks, our empty hearts, our sudden bursts of energy, our sudden bouts of depression. Don’t worry. Put away your mirrors and your beauty magazines and your books on tape. There is someone right here who knows you more than you do, who is making room on the couch, who is fixing a meal, who is putting on your favorite record, who is listening intently to what you have to say, who is standing there with you, face to face, hand to hand, eye to eye, mouth to mouth. There is no space left uncovered. This is where you belong.", "Sufjan Stevens"]
 ];
 
 var random = "";
@@ -377,6 +382,9 @@ function getQuote() {
     var chekhov = ['images/chekhov.jpg', 'images/chekhov2.jpg', 'images/chekhov3.jpg',];
     var lcohen = ['images/lcohen.jpg', 'images/lcohen2.jpg', 'images/lcohen3.jpg', 'images/lcohen4.jpg',];
     var ebronte = ['images/ebronte.jpg', 'images/ebronte2.jpg', 'images/ebronte3.jpg',];
+    var maupassant = ['images/maupassant.jpg', 'images/maupassant2.jpg',];
+    var wjames = ['images/wjames.jpg', 'images/wjames2.jpg', 'images/wjames3.jpg',];
+    var soof = ['images/soof.jpg', 'images/soof2.jpg', 'images/soof3.jpg', 'images/soof4.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -648,8 +656,20 @@ function getQuote() {
     $('.bg').css({'background-image' : 'url('+ nietzsche[Math.floor(Math.random() * nietzsche.length)] + ')'});
     break; 
 
+    case "Guy De Maupassant":
+    $('.bg').css({'background-image' : 'url('+ maupassant[Math.floor(Math.random() * maupassant.length)] + ')'});
+    break; 
+
     case "Jorge Luis Borges":
     $('.bg').css({'background-image' : 'url('+ borges[Math.floor(Math.random() * borges.length)] + ')'});
+    break;
+
+    case "William James":
+    $('.bg').css({'background-image' : 'url('+ wjames[Math.floor(Math.random() * wjames.length)] + ')'});
+    break;
+
+    case "Sufjan Stevens":
+    $('.bg').css({'background-image' : 'url('+ soof[Math.floor(Math.random() * soof.length)] + ')'});
     break;
 
 		case "Frédéric Chopin":
