@@ -230,7 +230,7 @@ var quotes = [
   ["I am pleasantly located in the deep sea, but love will row you out, if her hands are strong…", "Emily Dickinson"],
   ["Now I have expanded my life to accommodate my thoughts about you, and there is hardly a quarter of an hour of my waking time when I haven’t thought about you, and many quarter-hours when I do nothing else.", "Franz Kafka"],
   ["I am an absolute sceptic and materialist, and regard the universe as a wholly purposeless and essentially temporary incident in the ceaseless and boundless rearrangements of electrons, atoms, and molecules which constitute the blind but regular mechanical patterns of cosmic activity. Nothing really matters, and the only thing for a person to do is to take the artificial and traditional values he finds around him and pretend they are real; in order to retain that illusion of significance in life which gives to human events their apparent motivation and semblance of interest.", "H.P. Lovecraft"],
-  ["Memories and possibilities are even more hideous than realities."," H.P. Lovecraft"],
+  ["Memories and possibilities are even more hideous than realities.","H.P. Lovecraft"],
   ["Life’s true face is the skull.", "Nikos Kazantzakis"],
   ["I felt it shelter to speak to you.", "Emily Dickinson"],
   ["And I would hide my face in you and you would hide your face in me, and nobody would ever see us any more.", "Franz Kafka"],
@@ -300,7 +300,15 @@ var quotes = [
   ["To change one’s life:<br>1. Start immediately.<br>2. Do it flamboyantly.<br>3. No exceptions.", "William James"],
   ["The cradle rocks above an abyss, and common sense tells us that our existence is but a brief crack of light between two eternities of darkness. Although the two are identical twins, man, as a rule, views the prenatal abyss with more calm than the one he is heading for (at some forty-five hundred heartbeats an hour). I know, however, of a young chronophobiac who experienced something like panic when looking for the first time at homemade movies that had been taken a few weeks before his birth. He saw a world that was practically unchanged-the same house, the same people- and then realized that he did not exist there at all and that nobody mourned his absence. He caught a glimpse of his mother waving from an upstairs window, and that unfamiliar gesture disturbed him, as if it were some mysterious farewell. But what particularly frightened him was the sight of a brand-new baby carriage standing there on the porch, with the smug, encroaching air of a coffin; even that was empty, as if, in the reverse course of events, his very bones had disintegrated.", "Vladimir Nabokov"],
   ["I don’t want to be present in the events that I participate in. I try to become invisible. I perceive myself as someone who shouldn’t exist", "Slavoj Žižek "],
-  ["Perhaps we don't like what we see: our hips, our loss of hair, our shoe size, our dimples, our knuckles too big, our eating habits, our disposition. We have disclosed these things in secret, likes and dislikes, behind doors with locks, our lonely rooms, our messy desks, our empty hearts, our sudden bursts of energy, our sudden bouts of depression. Don’t worry. Put away your mirrors and your beauty magazines and your books on tape. There is someone right here who knows you more than you do, who is making room on the couch, who is fixing a meal, who is putting on your favorite record, who is listening intently to what you have to say, who is standing there with you, face to face, hand to hand, eye to eye, mouth to mouth. There is no space left uncovered. This is where you belong.", "Sufjan Stevens"]
+  ["Perhaps we don't like what we see: our hips, our loss of hair, our shoe size, our dimples, our knuckles too big, our eating habits, our disposition. We have disclosed these things in secret, likes and dislikes, behind doors with locks, our lonely rooms, our messy desks, our empty hearts, our sudden bursts of energy, our sudden bouts of depression. Don’t worry. Put away your mirrors and your beauty magazines and your books on tape. There is someone right here who knows you more than you do, who is making room on the couch, who is fixing a meal, who is putting on your favorite record, who is listening intently to what you have to say, who is standing there with you, face to face, hand to hand, eye to eye, mouth to mouth. There is no space left uncovered. This is where you belong.", "Sufjan Stevens"], 
+  ["Sometimes I feel like a caretaker of a museum — a huge, empty museum where no one ever comes, and I’m watching over it for no one but myself.", "Haruki Murakami"],
+  ["My head is a hive of words that won’t settle.", "Virginia Woolf"],
+  ["There is an aching void in my heart which I am convinced the world can never fill.", "Emily Dickinson"],
+  ["What matters is precisely this; the unspoken at the edge of the spoken.", "Virginia Woolf"],
+  ["He stepped down, trying not to look long at her, as if she were the sun, yet he saw her, like the sun, even without looking."], ["Leo Tolstoy"],
+  ["Give me the flame no dampness dulls,<br>The passion of the instinctive pulse,<br>Love steadfast as a fixed star,<br>Tender as doves with nestlings are,<br>More large than time, more strong than death", "Christina Rosseti"],
+  ["At night, my dreams rhyme, and all day I have an aftertaste of insomnia.", "Vladimir Nabokov"],
+  ["I’ll give you the secret of secrets. Mirrors are the doors through which Death comes and goes. Look at yourself in a mirror all your life… and you’ll see Death at work like bees in a hive of glass.", "Jean Cocteau"]
 ];
 
 var random = "";
@@ -385,6 +393,8 @@ function getQuote() {
     var maupassant = ['images/maupassant.jpg', 'images/maupassant2.jpg',];
     var wjames = ['images/wjames.jpg', 'images/wjames2.jpg', 'images/wjames3.jpg',];
     var soof = ['images/soof.jpg', 'images/soof2.jpg', 'images/soof3.jpg', 'images/soof4.jpg',];
+    var tolstoy = ['images/tolstoy.jpg', 'images/tolstoy2.jpg', 'images/tolstoy3.jpg', 'images/tolstoy4.jpg',];
+    var cocteau = ['images/cocteau.jpg', 'images/cocteau2.jpg', 'images/cocteau3.jpg',];
 
     $(".bg").animate({
           opacity: 0
@@ -672,6 +682,14 @@ function getQuote() {
     $('.bg').css({'background-image' : 'url('+ soof[Math.floor(Math.random() * soof.length)] + ')'});
     break;
 
+    case "Leo Tolstoy":
+    $('.bg').css({'background-image' : 'url('+ tolstoy[Math.floor(Math.random() * tolstoy.length)] + ')'});
+    break;
+
+    case "Jean Cocteau":
+    $('.bg').css({'background-image' : 'url('+ cocteau[Math.floor(Math.random() * cocteau.length)] + ')'});
+    break;
+
 		case "Frédéric Chopin":
 		$('.bg').css("background-image", "url(images/chopin.jpg)");
 		break;
@@ -783,6 +801,7 @@ $(document).ready(function(){
 getQuote();
 
 $('#new-quote').on('click', getQuote);
+$('#new-quote').focus();
 
 
 });
