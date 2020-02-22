@@ -313,7 +313,8 @@ var quotes = [
     ["A small yellow tongue flickers.<br>The candle drips and drips.<br>This is how you and I live—<br>Our souls flare, flesh disappears.", "Arseny Tarkovsky"],
     ["People who live in society have learnt how to see themselves, in mirrors, as they appear to their friends. I have no friends: is that why my flesh is so naked?", "Jean-Paul Sartre"],
     ["Remember, remember, this is now, and now, and now. Live it, feel it, cling to it. I want to become acutely aware of all I’ve taken for granted.", "Sylvia Plath"],
-    ["Where am I when I’m not in reality or in my imagination?", "Andrei Tarkovsky"]
+    ["Where am I when I’m not in reality or in my imagination?", "Andrei Tarkovsky"],
+    ["A small yellow tongue flickers.<br>The candle drips and drips.<br>This is how you and I live—<br>our souls flare, flesh disappears.", "Arseny Tarkovsky"]
 ];
 
 var random = "";
@@ -743,6 +744,11 @@ function getQuote() {
                 case "Soren Kierkegaard":
                     $('.bg').css("background-image", "url(images/kierkegaard.jpg)");
                     break;
+
+                case "Arseny Tarkovsky":
+                    $('.bg').css("background-image", "url(images/tarkovsky-arseny.jpg)");
+                    break;
+
 
                 default:
                     $('.bg').css("background-image", "url(images/default.jpg)");
